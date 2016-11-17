@@ -1,0 +1,43 @@
+# Project files
+*.komodoproject
+.idea/
+.metadata/
+.project
+.settings/
+.pydevproject
+.idea
+.dartignore
+
+# Code build files
+*.egg-info/
+build/
+__pycache__/
+pycountries/__pycache__/
+pycountries/helpers/__pycache__/
+*.pyc
+
+# Code documentation
+docs/sphinx/_build/
+venv/
+
+# Backup files
+*.bak
+*.log
+*.*~
+*~
+
+examples/third_party/
+third_party/
+examples/data.*
+examples/processed.*
+
+# Sandbox
+**/_tmp/*
+**/tmp/*
+
+# Scripts
+bash/*
+
+# Documentation
+docs/doxygen/*
+docs/sphinx/_build/*
