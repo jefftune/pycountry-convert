@@ -3,7 +3,7 @@
 #  @namespace pycountries
 
 __title__ = 'pycountries'
-__version__ = '0.1.1'
+__version__ = '0.1.2'
 __build__ = 0x000101
 __version_info__ = tuple(__version__.split('.'))
 
