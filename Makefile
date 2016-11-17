@@ -5,6 +5,7 @@
 #
 
 PYTHON3 := $(shell which python3)
+PYTHON27 := $(shell which python2.7)
 PIP3    := $(shell which pip3)
 PY_MODULES := pip setuptools pylint flake8 pprintpp pep8 requests six sphinx wheel retry validators python-dateutil
 PYTHON3_SITE_PACKAGES := $(shell python3 -c "import site; print(site.getsitepackages()[0])")
@@ -138,6 +139,8 @@ local-dev: remove-package
 dist:
 	rm -fR ./dist/*
 	$(PYTHON3) $(SETUP_FILE) sdist --format=zip,gztar upload
+	$(PYTHON27) $(SETUP_FILE) bdist_egg upload
+	$(PYTHON27) $(SETUP_FILE) bdist_wheel upload
 	$(PYTHON3) $(SETUP_FILE) bdist_egg upload
 	$(PYTHON3) $(SETUP_FILE) bdist_wheel upload
 
