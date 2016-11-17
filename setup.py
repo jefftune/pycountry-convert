@@ -58,7 +58,7 @@ if len(sys.argv) < 2 or sys.argv[1] == 'version':
 setup(
     name='pycountries',
     version=version,
-    description='Conversion functions between ISO country identifiers.',
+    description='Countries conversion functions for Python',
     author='TUNE Inc., TuneLab',
     author_email='jefft@tune.com',
     url='https://github.com/TuneLab/pycountries',

@@ -1,10 +1,8 @@
-## pycountries-python Changes Log
-## TUNE Multiverse Countries Library for Python 3.0
-## Incorporate TUNE Multiverse Integration services.
-#### Update:  $Date: 2016-07-18 15:06:23 PDT $
+## pycountries Changes
+## Countries conversion functions for Python 2.7 and 3.0
 ===
 
-Here you can see the full list of changes between each `pycountries-python` release.
+Here you can see the full list of changes between each `pycountries` release.
 
 Version 0.1.0
 -------------
