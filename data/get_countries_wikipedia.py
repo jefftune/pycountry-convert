@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#  @namespace pycountries
+#  @namespace pycountry-convert
 """
 Extract a list of countries, grouped by continent, from Wikipedia
 """

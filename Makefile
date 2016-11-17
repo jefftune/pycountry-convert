@@ -10,23 +10,21 @@ PIP3    := $(shell which pip3)
 PY_MODULES := pip setuptools pylint flake8 pprintpp pep8 requests six sphinx wheel retry validators python-dateutil
 PYTHON3_SITE_PACKAGES := $(shell python3 -c "import site; print(site.getsitepackages()[0])")
 
-TUNE_MV_COUNTRIES_PKG := pycountries
-TUNE_MV_COUNTRIES_PKG_PREFIX := pycountries
+PYCOUNTRY_CONVERT_PKG := pycountry-convert
+PYCOUNTRY_CONVERT_PKG_PREFIX := pycountry_convert
 
 TUNE_MV_PKG_SUFFIX := py3-none-any.whl
-TUNE_MV_COUNTRIES_PKG_PREFIX_PATTERN := $(TUNE_MV_COUNTRIES_PKG_PREFIX)-*
-TUNE_MV_COUNTRIES_PKG_PATTERN := $(TUNE_MV_COUNTRIES_PKG_PREFIX)-*-$(TUNE_MV_PKG_SUFFIX)
 
 VERSION := $(shell $(PYTHON3) setup.py version)
-TUNE_MV_COUNTRIES_WHEEL_ARCHIVE := dist/$(TUNE_MV_COUNTRIES_PKG_PREFIX)-$(VERSION)-$(TUNE_MV_PKG_SUFFIX)
+PYCOUNTRY_CONVERT_WHEEL_ARCHIVE := dist/$(PYCOUNTRY_CONVERT_PKG_PREFIX)-$(VERSION)-$(TUNE_MV_PKG_SUFFIX)
 
-MV_INTEGRATION_FILES := $(shell find pycountries ! -name '__init__.py' -type f -name "*.py")
+MV_INTEGRATION_FILES := $(shell find pycountry-convert ! -name '__init__.py' -type f -name "*.py")
 LINT_REQ_FILE := requirements-pylint.txt
 REQ_FILE      := requirements.txt
 SETUP_FILE    := setup.py
 ALL_FILES     := $(MV_INTEGRATION_FILES) $(REQ_FILE) $(SETUP_FILE)
 
-# Report the current pycountries version.
+# Report the current pycountry-convert version.
 version:
 	@echo MV Integration Base Version: $(VERSION)
 
@@ -46,22 +44,22 @@ clean:
 	@echo clean
 	@echo "======================================================"
 	rm -fR __pycache__ venv "*.pyc" build/*    \
-		$(TUNE_MV_COUNTRIES_PKG_PREFIX)/__pycache__/         \
-		$(TUNE_MV_COUNTRIES_PKG_PREFIX)/helpers/__pycache__/ \
-		$(TUNE_MV_COUNTRIES_PKG_PREFIX).egg-info/*
+		$(PYCOUNTRY_CONVERT_PKG_PREFIX)/__pycache__/         \
+		$(PYCOUNTRY_CONVERT_PKG_PREFIX)/helpers/__pycache__/ \
+		$(PYCOUNTRY_CONVERT_PKG_PREFIX).egg-info/*
 	find ./* -maxdepth 0 -name "*.pyc" -type f -delete
-	find $(TUNE_MV_COUNTRIES_PKG_PREFIX) -name "*.pyc" -type f -delete
+	find $(PYCOUNTRY_CONVERT_PKG_PREFIX) -name "*.pyc" -type f -delete
 
 clean-again:
 	@echo "======================================================"
 	@echo clean-again
 	@echo "======================================================"
 	rm -fR __pycache__ venv "*.pyc" build/*    \
-		$(TUNE_MV_COUNTRIES_PKG_PREFIX)/__pycache__/         \
-		$(TUNE_MV_COUNTRIES_PKG_PREFIX)/helpers/__pycache__/ \
-		$(TUNE_MV_COUNTRIES_PKG_PREFIX).egg-info/*
+		$(PYCOUNTRY_CONVERT_PKG_PREFIX)/__pycache__/         \
+		$(PYCOUNTRY_CONVERT_PKG_PREFIX)/helpers/__pycache__/ \
+		$(PYCOUNTRY_CONVERT_PKG_PREFIX).egg-info/*
 	find ./* -maxdepth 0 -name "*.pyc" -type f -delete
-	find $(TUNE_MV_COUNTRIES_PKG_PREFIX) -name "*.pyc" -type f -delete
+	find $(PYCOUNTRY_CONVERT_PKG_PREFIX) -name "*.pyc" -type f -delete
 
 # Install the project requirements.
 requirements: $(REQ_FILE) pip
@@ -74,13 +72,13 @@ dist: clean
 	@echo "======================================================"
 	@echo dist
 	@echo "======================================================"
-	@echo Building: $(TUNE_MV_COUNTRIES_WHEEL_ARCHIVE)
+	@echo Building: $(PYCOUNTRY_CONVERT_WHEEL_ARCHIVE)
 	$(PYTHON3) --version
-	find ./dist/ -name $(TUNE_MV_COUNTRIES_PKG_PREFIX_PATTERN) -exec rm -vf {} \;
+	find ./dist/ -name $(PYCOUNTRY_CONVERT_PKG_PREFIX_PATTERN) -exec rm -vf {} \;
 	$(PYTHON3) $(SETUP_FILE) bdist_wheel
 	$(PYTHON3) $(SETUP_FILE) bdist_egg
 	$(PYTHON3) $(SETUP_FILE) sdist --format=zip,gztar
-	ls -al ./dist/$(TUNE_MV_COUNTRIES_PKG_PREFIX_PATTERN)
+	ls -al ./dist/$(PYCOUNTRY_CONVERT_PKG_PREFIX_PATTERN)
 
 # DIST UPDATE INTENTIONALLY REMOVED
 
@@ -94,47 +92,47 @@ build: $(ALL_FILES) pip requirements
 
 uninstall:
 	@echo "======================================================"
-	@echo uninstall $(TUNE_MV_COUNTRIES_PKG)
+	@echo uninstall $(PYCOUNTRY_CONVERT_PKG)
 	@echo "======================================================"
 	$(PIP3) install --upgrade list
-	@if $(PIP3) list --format=legacy | grep -F $(TUNE_MV_COUNTRIES_PKG) > /dev/null; then \
-		echo "python package $(TUNE_MV_COUNTRIES_PKG) Found"; \
-		$(PIP3) uninstall --yes $(TUNE_MV_COUNTRIES_PKG); \
+	@if $(PIP3) list --format=legacy | grep -F $(PYCOUNTRY_CONVERT_PKG) > /dev/null; then \
+		echo "python package $(PYCOUNTRY_CONVERT_PKG) Found"; \
+		$(PIP3) uninstall --yes $(PYCOUNTRY_CONVERT_PKG); \
 	else \
-		echo "python package $(TUNE_MV_COUNTRIES_PKG) Not Found"; \
+		echo "python package $(PYCOUNTRY_CONVERT_PKG) Not Found"; \
 	fi;
 
 remove-package: uninstall
 	@echo "======================================================"
-	@echo remove-package $(TUNE_MV_COUNTRIES_PKG)
+	@echo remove-package $(PYCOUNTRY_CONVERT_PKG)
 	@echo "======================================================"
-	rm -fR $(PYTHON3_SITE_PACKAGES)/$(TUNE_MV_COUNTRIES_PKG_PREFIX)*
+	rm -fR $(PYTHON3_SITE_PACKAGES)/$(PYCOUNTRY_CONVERT_PKG_PREFIX)*
 
 # Install the module from a binary distribution archive.
 install: remove-package
 	@echo "======================================================"
-	@echo install $(TUNE_MV_COUNTRIES_PKG)
+	@echo install $(PYCOUNTRY_CONVERT_PKG)
 	@echo "======================================================"
 	$(PIP3) install --upgrade pip
-	$(PIP3) install --upgrade $(TUNE_MV_COUNTRIES_WHEEL_ARCHIVE)
-	$(PIP3) freeze | grep $(TUNE_MV_COUNTRIES_PKG)
+	$(PIP3) install --upgrade $(PYCOUNTRY_CONVERT_WHEEL_ARCHIVE)
+	$(PIP3) freeze | grep $(PYCOUNTRY_CONVERT_PKG)
 
 # Install project for local development. Changes to the files will be reflected in installed code
 local-dev-editable: remove-package
 	@echo "======================================================"
-	@echo local-dev-editable $(TUNE_MV_COUNTRIES_PKG)
+	@echo local-dev-editable $(PYCOUNTRY_CONVERT_PKG)
 	@echo "======================================================"
 	$(PIP3) install --upgrade freeze
 	$(PIP3) install --upgrade --editable .
-	$(PIP3) freeze | grep $(TUNE_MV_COUNTRIES_PKG)
+	$(PIP3) freeze | grep $(PYCOUNTRY_CONVERT_PKG)
 
 local-dev: remove-package
 	@echo "======================================================"
-	@echo local-dev $(TUNE_MV_COUNTRIES_PKG)
+	@echo local-dev $(PYCOUNTRY_CONVERT_PKG)
 	@echo "======================================================"
 	$(PIP3) install --upgrade freeze
 	$(PIP3) install --upgrade .
-	$(PIP3) freeze | grep $(TUNE_MV_COUNTRIES_PKG)
+	$(PIP3) freeze | grep $(PYCOUNTRY_CONVERT_PKG)
 
 dist:
 	rm -fR ./dist/*
@@ -162,11 +160,11 @@ flake8:
 analysis: install
 	. venv/bin/activate; flake8 --ignore=E123,E126,E128,E265,E501 examples
 	. venv/bin/activate; flake8 --ignore=E123,E126,E128,E265,E501 tests
-	. venv/bin/activate; flake8 --ignore=F401,E265,E129 pycountries
-	. venv/bin/activate; pylint --rcfile tools/pylintrc pycountries | more
+	. venv/bin/activate; flake8 --ignore=F401,E265,E129 pycountry-convert
+	. venv/bin/activate; pylint --rcfile tools/pylintrc pycountry-convert | more
 
 lint: clean
-	pylint --rcfile .pylintrc pycountries | more
+	pylint --rcfile .pylintrc pycountry-convert | more
 
 lint-requirements: $(LINT_REQ_FILE)
 	$(PIP3) install --upgrade -f $(LINT_REQ_FILE)
@@ -192,7 +190,7 @@ site-packages:
 	@echo $(PYTHON3_SITE_PACKAGES)
 
 list-package:
-	ls -al $(PYTHON3_SITE_PACKAGES)/$(TUNE_MV_COUNTRIES_PKG_PREFIX)*
+	ls -al $(PYTHON3_SITE_PACKAGES)/$(PYCOUNTRY_CONVERT_PKG_PREFIX)*
 
 
 .PHONY: brew-python clean register lint pylint pep8 pyflakes examples analysis

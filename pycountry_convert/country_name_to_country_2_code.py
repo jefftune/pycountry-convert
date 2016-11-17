@@ -1,12 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#  @namespace pycountries
+#  @namespace pycountry-convert
 """
 Country name to Country code mapping.
 """
 
 COUNTRY_NAME_TO_COUNTRY_2_CODE = {
-
     'Abkhazia': 'AB',
     'Afghanistan': 'AF',
     'Albania': 'AL',
