@@ -3,13 +3,12 @@
 #  @namespace pycountries
 
 __title__ = 'pycountries'
-__version__ = '0.01.6'
-__build__ = 0x000106
+__version__ = '0.1.8'
+__build__ = 0x000108
 __version_info__ = tuple(__version__.split('.'))
 
 __author__ = 'jefft@tune.com'
-__license__ = 'The MIT License (MIT)'
-__copyright__ = 'Copyright 2016 TUNE, Inc.'
+__license__ = 'Apache 2.0'
 
 __python_required_version__ = (3, 0)
 

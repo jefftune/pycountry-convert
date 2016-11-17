@@ -1,7 +1,7 @@
 <h2>pycountries</h2>
 <h3>Python conversion functions between ISO country codes, countries, and continents.</h3>
-<h4>Thursday, 2016 November 17, 2016 07:00:00 UTC</h4>
-<h4>Version: 0.01.6</h4>
+<h4>Thursday, 2016 November 17, 2016 08:00:00 UTC</h4>
+<h4>Version: 0.1.8</h4>
 ===
 
 Using country data derived from wikipedia, this package provides conversion 
@@ -23,3 +23,5 @@ Available functions:
 to <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2" target="_blank">country code ISO 3166-1 alpha-2</a>:</dt>
 <dd><code>convert_country_3_code_to_country_2_code()</code></dd>
 </dl>
+
+License: Apache 2.0
