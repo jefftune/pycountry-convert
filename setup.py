@@ -51,14 +51,13 @@ if len(sys.argv) < 2 or sys.argv[1] == 'version':
 setup(
     name='pycountries',
     version=version,
-    description='Countries, country-codes, and continents.',
+    description='Conversion functions between ISO country identifiers.',
     author='TUNE',
     author_email='jefft@tune.com',
     url='https://github.com/TuneLab/pycountries',
-    keywords=["country", "country-code", "continent", "ISO 3166-1", "alpha-2", "alpha-3"],
+    keywords=["country","country code","continent","ISO 3166-1","alpha-2","alpha-3"],
     install_requires=REQUIREMENTS,
     packages=PACKAGES,
-    package_data={'': ['LICENSE', 'NOTICE'], 'pycountries': ['*.pem']},
     package_dir={'pycountries': 'pycountries'},
     include_package_data=True,
     license='MIT License',
@@ -70,11 +69,9 @@ setup(
 
     DESCRIPTION
 
-    Python converstion function for countries, country-codes, and continents.
+    Using country data derived from wikipedia, this package provides conversion functions for countries, country-codes, and continents.
 
-    See https://github.com/TuneLab/pycountries for
-    more information.
+    See https://github.com/TuneLab/pycountries for more information.
 
-    LICENSE TUNE Multiverse Countries Library is distributed under the
-    MIT License"""
+    LICENSE Distributed under the MIT License"""
 )
