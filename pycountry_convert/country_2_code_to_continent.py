@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #  @copyright 2016 TUNE, Inc. (http://www.tune.com)
-#  @namespace pycountries
+#  @namespace pycountry-convert
 """
 Mapping of Country codes to Continent, from Wikipedia
 """

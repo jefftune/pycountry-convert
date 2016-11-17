@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#  @namespace pycountries
+#  @namespace pycountry-convert
 
 import sys
 from pprintpp import pprint
 
-from pycountries import (
+from pycountry_convert import (
     convert_country_2_code_to_country_name,
     convert_country_2_code_to_continent
 )

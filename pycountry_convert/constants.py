@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#  @namespace pycountries
+#  @namespace pycountry-convert
 
 import sys
 import pkg_resources
 
-__title__ = 'pycountries'
+__title__ = 'pycountry-convert'
 __version__ = pkg_resources.get_distribution(__title__).version
 __MODULE_VERSION_INFO__ = tuple(__version__.split('.'))
 __MODULE_SIG__ = "%s/%s" % (

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#  @namespace pycountries
+#  @namespace pycountry-convert
 
 from __future__ import with_statement
 
@@ -21,7 +21,7 @@ REQUIREMENTS = [
 ]
 
 PACKAGES = [
-    'pycountries'
+    'pycountry_convert'
 ]
 
 CLASSIFIERS = [
@@ -45,7 +45,7 @@ CLASSIFIERS = [
     'Topic :: Software Development :: Libraries :: Python Modules'
 ]
 
-with open('pycountries/__init__.py', 'r') as fd:
+with open('pycountry_convert/__init__.py', 'r') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE).group(1)
 
 if not version:
@@ -56,15 +56,15 @@ if len(sys.argv) < 2 or sys.argv[1] == 'version':
     sys.exit()
 
 setup(
-    name='pycountries',
+    name='pycountry-convert',
     version=version,
     description='Countries conversion functions for Python',
     author='TUNE Inc., TuneLab',
     author_email='jefft@tune.com',
-    url='https://github.com/TuneLab/pycountries',
+    url='https://github.com/TuneLab/pycountry-convert',
     install_requires=REQUIREMENTS,
     packages=PACKAGES,
-    package_dir={'pycountries': 'pycountries'},
+    package_dir={'pycountry-convert': 'pycountry-convert'},
     include_package_data=True,
     license='Apache 2.0',
     zip_safe=False,
@@ -75,6 +75,6 @@ setup(
 
     Using country data derived from wikipedia, this package provides conversion functions for countries, country-codes, and continents.
 
-    See https://github.com/TuneLab/pycountries for more information.
+    See https://github.com/TuneLab/pycountry-convert for more information.
     """
 )
