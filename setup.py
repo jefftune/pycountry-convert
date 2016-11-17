@@ -34,7 +34,14 @@ CLASSIFIERS = [
     'License :: OSI Approved :: MIT License',
     'Operating System :: OS Independent',
     'Natural Language :: English',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.0',
+    'Programming Language :: Python :: 3.1',
+    'Programming Language :: Python :: 3.2',
+    'Programming Language :: Python :: 3.3',
+    'Programming Language :: Python :: 3.4',
     'Topic :: Software Development :: Libraries :: Python Modules'
 ]
 
@@ -55,7 +62,7 @@ setup(
     author='TUNE',
     author_email='jefft@tune.com',
     url='https://github.com/TuneLab/pycountries',
-    keywords=["country","country code","continent","ISO 3166-1","alpha-2","alpha-3"],
+    keywords=["country", "continent", "ISO 3166-1", "alpha-2", "alpha-3"],
     install_requires=REQUIREMENTS,
     packages=PACKAGES,
     package_dir={'pycountries': 'pycountries'},
@@ -64,14 +71,11 @@ setup(
     zip_safe=False,
     classifiers=CLASSIFIERS,
     long_description="""\
-    Python country data derived from wikipedia.
-    -------------------------------------------
-
-    DESCRIPTION
+    Conversion functions between ISO country identifiers.
+    -----------------------------------------------------
 
     Using country data derived from wikipedia, this package provides conversion functions for countries, country-codes, and continents.
 
     See https://github.com/TuneLab/pycountries for more information.
-
-    LICENSE Distributed under the MIT License"""
+    """
 )

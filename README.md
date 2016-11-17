@@ -1,7 +1,7 @@
 <h2>pycountries</h2>
 <h3>Python conversion functions between ISO country codes, countries, and continents.</h3>
-<h4>Thursday, 2016 November 17, 2016 06:30:00 UTC</h4>
-<h4>Version: 0.1.3</h4>
+<h4>Thursday, 2016 November 17, 2016 07:00:00 UTC</h4>
+<h4>Version: 0.01.6</h4>
 ===
 
 Using country data derived from wikipedia, this package provides conversion 
