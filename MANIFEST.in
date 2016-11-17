@@ -1,0 +1,8 @@
+include setup.py
+include LICENSE.md
+include AUTHORS.md
+include CHANGES.md
+include README.md
+include Makefile
+include requirements.txt
+recursive-include pycountries *.py

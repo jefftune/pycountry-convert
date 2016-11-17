@@ -1,0 +1,1655 @@
+This is a list of [[sovereign state]]s and [[dependent territory|dependent territories]] of the [[world]] by [[continent]], displayed with their respective [[national flag]]s and [[national capital|capital]]s, including the following entities:
+* In '''bold''': [[List of sovereign states|Internationally recognized sovereign states]]
+** The 193 [[List of United Nations member states|member states]] of the [[United Nations]] (UN)
+** [[Vatican City]] (administered by the [[Holy See]], a [[United Nations General Assembly observers#Non-member states|UN-recognized non-member state]])
+** [[State of Palestine]] (administered by the [[Palestinian National Authority|PNA]], a [[United Nations General Assembly observers#Non-member states|UN-recognized non-member state]])
+* In '''''bold italics''''': [[List of states with limited recognition|States with limited recognition]] and [[associated state]]s not members of the United Nations
+** ''De facto'' sovereign states lacking general international recognition
+** [[Cook Islands]] and [[Niue]], two [[Realm of New Zealand|associated states of New Zealand]] without UN membership
+* In ''italics'': Non-sovereign territories that are recognized by the UN as part of some member state
+** [[List of dependent territories|Dependent territories]]
+** Special territories recognized by international treaty(such as the [[Special Administrative Region of the People's Republic of China|special administrative regions of China]])
+** Other territories often regarded as separate geographical territories even though they are integral parts of their mother countries (such as the [[Overseas departments and territories of France|overseas departments of France]])
+
+This list divides the world using the seven-continent model, with islands grouped into adjacent continents. The continents are:
+
+* [[North America]]
+* [[South America]]
+* [[Europe]]
+* [[Africa]]
+* [[Asia]]
+* [[Oceania]]
+* [[Antarctica]]
+
+In other models, Asia and Europe can be combined as [[Eurasia]], while North and South America can be combined as the [[Americas]] ''(for a detailed description of how the world is divided into continents, including different models, see [[Continent#Definitions and application|Continent: definitions and application]])''.
+
+There are [[List of countries spanning more than one continent|sovereign states and dependent territories that can be considered to belong to more than one continent]], according to geographical, political, or historical criteria.
+
+==Classification according to United Nations geoscheme==
+{{main|United Nations geoscheme}}
+
+In this list, the sovereign states and dependent territories are classified according to the geoscheme created by the [[United Nations Statistics Division]].<ref>{{cite web| url=http://unstats.un.org/unsd/methods/m49/m49regin.htm| title=Composition of macro geographical (continental) regions, geographical sub-regions, and selected economic and other groupings| publisher=United Nations Statistics Division}}</ref> According to the UN, the assignment of countries or areas to specific groupings is for statistical convenience and does not imply any assumption regarding political or other affiliation of countries or territories.<ref>{{cite web| url=http://unstats.un.org/unsd/methods/m49/m49.htm| title=Standard country or area codes and geographical regions for statistical use| publisher=United Nations Statistics Division}}</ref>
+
+===Africa===
+{{main|Africa|List of sovereign states and dependent territories in Africa}}
+{{further|Geography of Africa}}
+''For a table of sovereign states and dependent territories in Africa with geographical data such as area, population, and population density, see [[Africa#Territories and regions|Africa: territories and regions]].''
+
+{| class="wikitable sortable"
+! class="unsortable" | Flag
+! Name
+! Capital
+! Status
+|-
+| {{flagicon|Algeria|size=50px}}
+| '''[[Algeria]]'''
+| [[Algiers]]
+|
+|-
+| {{flagicon|Angola|size=50px}}
+| '''[[Angola]]'''
+| [[Luanda]]
+|
+|-
+| {{flagicon|Benin|size=50px}}
+| '''[[Benin]]'''
+| [[Porto-Novo]] (official)<br /> [[Cotonou]] ([[seat of government]])
+|
+|-
+| {{flagicon|Botswana|size=50px}}
+| '''[[Botswana]]'''
+| [[Gaborone]]
+|
+|-
+| {{flagicon|Burkina Faso|size=50px}}
+| '''[[Burkina Faso]]'''
+| [[Ouagadougou]]
+|
+|-
+| {{flagicon|Burundi|size=50px}}
+| '''[[Burundi]]'''
+| [[Bujumbura]]
+|
+|-
+| {{flagicon|Cameroon|size=50px}}
+| '''[[Cameroon]]'''
+| [[Yaoundé]]
+|
+|-
+| {{flagicon|Cape Verde|size=50px}}
+| '''[[Cape Verde]]''' (Cabo Verde)
+| [[Praia]]
+|
+|-
+| {{flagicon|Central African Republic|size=50px}}
+| '''[[Central African Republic]]'''
+| [[Bangui]]
+|
+|-
+| {{flagicon|Chad|size=50px}}
+| '''[[Chad]]'''
+| [[N'Djamena]]
+|
+|-
+| {{flagicon|Comoros|size=50px}}
+| '''[[Comoros]]'''
+| [[Moroni, Comoros|Moroni]]
+|
+|-
+| {{flagicon|Republic of the Congo|size=50px}}
+| '''[[Republic of the Congo|Congo]]''' (Congo-Brazzaville)
+| [[Brazzaville]]
+|
+|-
+| {{flagicon|Democratic Republic of the Congo|size=50px}}
+| '''[[Democratic Republic of the Congo]]''' (Congo-Kinshasa)
+| [[Kinshasa]]
+|
+|-
+| {{flagicon|Djibouti|size=50px}}
+| '''[[Djibouti]]'''
+| [[Djibouti City]]
+|
+|-
+| {{flagicon|Egypt|size=50px}}
+| '''[[Egypt]]'''
+| [[Cairo]]
+|
+|-
+| {{flagicon|Equatorial Guinea|size=50px}}
+| '''[[Equatorial Guinea]]'''
+| [[Malabo]]
+|
+|-
+| {{flagicon|Eritrea|size=50px}}
+| '''[[Eritrea]]'''
+| [[Asmara]]
+|
+|-
+| {{flagicon|Ethiopia|size=50px}}
+| '''[[Ethiopia]]'''
+| [[Addis Ababa]]
+|
+|-
+| {{flagicon|Gabon|size=50px}}
+| '''[[Gabon]]'''
+| [[Libreville]]
+|
+|-
+| {{flagicon|Gambia|size=50px}}
+| '''[[Gambia]]'''
+| [[Banjul]]
+|
+|-
+| {{flagicon|Ghana|size=50px}}
+| '''[[Ghana]]'''
+| [[Accra]]
+|
+|-
+| {{flagicon|Guinea|size=50px}}
+| '''[[Guinea]]'''
+| [[Conakry]]
+|
+|-
+| {{flagicon|Guinea-Bissau|size=50px}}
+| '''[[Guinea-Bissau]]'''
+| [[Bissau]]
+|
+|-
+| {{flagicon|Ivory Coast|size=50px}}
+| '''[[Ivory Coast]]''' (Côte d'Ivoire)
+| [[Yamoussoukro]] (official)<br /> [[Abidjan]] ([[seat of government]])
+|
+|-
+| {{flagicon|Kenya|size=50px}}
+| '''[[Kenya]]'''
+| [[Nairobi]]
+|
+|-
+| {{flagicon|Lesotho|size=50px}}
+| '''[[Lesotho]]'''
+| [[Maseru]]
+|
+|-
+| {{flagicon|Liberia|size=50px}}
+| '''[[Liberia]]'''
+| [[Monrovia]]
+|
+|-
+| {{flagicon|Libya|size=50px}}
+| '''[[Libya]]'''
+| [[Tripoli]]
+|
+|-
+| {{flagicon|Madagascar|size=50px}}
+| '''[[Madagascar]]'''
+| [[Antananarivo]]
+|
+|-
+| {{flagicon|Malawi|size=50px}}
+| '''[[Malawi]]'''
+| [[Lilongwe]]
+|
+|-
+| {{flagicon|Mali|size=50px}}
+| '''[[Mali]]'''
+| [[Bamako]]
+|
+|-
+| {{flagicon|Mauritania|size=50px}}
+| '''[[Mauritania]]'''
+| [[Nouakchott]]
+|
+|-
+| {{flagicon|Mauritius|size=50px}}
+| '''[[Mauritius]]'''
+| [[Port Louis]]
+|
+|-
+| {{flagicon|Mayotte|size=50px}}
+| ''[[Mayotte]]''
+| [[Mamoudzou]]
+| [[Overseas departments and territories of France|Overseas department of France]]
+|-
+| {{flagicon|Morocco|size=50px}}
+| '''[[Morocco]]'''
+| [[Rabat]]
+|
+|-
+| {{flagicon|Mozambique|size=50px}}
+| '''[[Mozambique]]'''
+| [[Maputo]]
+|
+|-
+| {{flagicon|Namibia|size=50px}}
+| '''[[Namibia]]'''
+| [[Windhoek]]
+|
+|-
+| {{flagicon|Niger|size=50px}}
+| '''[[Niger]]'''
+| [[Niamey]]
+|
+|-
+| {{flagicon|Nigeria|size=50px}}
+| '''[[Nigeria]]'''
+| [[Abuja]]
+|
+|-
+| {{flagicon|Réunion|size=50px}}
+| ''[[Réunion]]''
+| [[Saint-Denis, Réunion|Saint-Denis]]
+| [[Overseas departments and territories of France|Overseas department of France]]
+|-
+| {{flagicon|Rwanda|size=50px}}
+| '''[[Rwanda]]'''
+| [[Kigali]]
+|
+|-
+| {{flagicon|Sahrawi Arab Democratic Republic|size=50px}}
+| '''''[[Sahrawi Arab Democratic Republic]]'''''
+| [[El Aaiún]] (official)<br /> [[Tifariti]] (factual [[temporary capital|temporary]], [[seat of government]]) and [[Sahrawi refugee camps]] (some government and military facilities)
+| ''De facto'' sovereign state lacking general international recognition.<br /> It claims the territory of [[Western Sahara]], most of which is controlled by [[Morocco]].
+|-
+| {{flagicon|Saint Helena, Ascension and Tristan da Cunha|size=50px}}
+| ''[[Saint Helena, Ascension and Tristan da Cunha]]''
+| [[Jamestown, Saint Helena|Jamestown]] ([[Saint Helena]])<br /> [[Georgetown, Ascension Island|Georgetown]] ([[Ascension Island]])<br /> [[Edinburgh of the Seven Seas]] ([[Tristan da Cunha]])
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|São Tomé and Príncipe|size=50px}}
+| '''[[São Tomé and Príncipe]]'''
+| [[São Tomé]]
+|
+|-
+| {{flagicon|Senegal|size=50px}}
+| '''[[Senegal]]'''
+| [[Dakar]]
+|
+|-
+| {{flagicon|Seychelles|size=50px}}
+| '''[[Seychelles]]'''
+| [[Victoria, Seychelles|Victoria]]
+|
+|-
+| {{flagicon|Sierra Leone|size=50px}}
+| '''[[Sierra Leone]]'''
+| [[Freetown]]
+|
+|-
+| {{flagicon|Somalia|size=50px}}
+| '''[[Somalia]]'''
+| [[Mogadishu]]
+|
+|-
+| {{flagicon|Somaliland|size=50px}}
+| '''''[[Somaliland]]'''''
+| [[Hargeisa]]
+| ''De facto'' sovereign state lacking general international recognition<br /> Recognized by the [[United Nations]] as part of [[Somalia]]
+|-
+| {{flagicon|South Africa|size=50px}}
+| '''[[South Africa]]'''
+| [[Pretoria]] (administrative/executive)<br /> [[Cape Town]] (legislative)<br /> [[Bloemfontein]] (judicial)
+|
+|-
+| {{flagicon|South Sudan|size=50px}}
+| '''[[South Sudan]]'''
+| [[Juba]]
+|
+|-
+| {{flagicon|Sudan|size=50px}}
+| '''[[Sudan]]'''
+| [[Khartoum]]
+|
+|-
+| {{flagicon|Swaziland|size=50px}}
+| '''[[Swaziland]]'''
+| [[Mbabane]] (administrative)<br /> [[Lobamba]] (royal and legislative)
+|
+|-
+| {{flagicon|Tanzania|size=50px}}
+| '''[[Tanzania]]'''
+| [[Dodoma]] (official)<br /> [[Dar es Salaam]] ([[seat of government]])
+|
+|-
+| {{flagicon|Togo|size=50px}}
+| '''[[Togo]]'''
+| [[Lomé]]
+|
+|-
+| {{flagicon|Tunisia|size=50px}}
+| '''[[Tunisia]]'''
+| [[Tunis]]
+|
+|-
+| {{flagicon|Uganda|size=50px}}
+| '''[[Uganda]]'''
+| [[Kampala]]
+|
+|-
+| {{flagicon|Zambia|size=50px}}
+| '''[[Zambia]]'''
+| [[Lusaka]]
+|
+|-
+| {{flagicon|Zimbabwe|size=50px}}
+| '''[[Zimbabwe]]'''
+| [[Harare]]
+|
+|}
+
+===Asia===
+{{main|Asia|List of sovereign states and dependent territories in Asia}}
+{{see also|Eurasia|List of sovereign states and dependent territories in Eurasia}}
+{{further|Geography of Asia}}
+''For a table of sovereign states and dependent territories in Asia with geographical data such as area, population, and population density, see [[Asia#Territories and regions|Asia: territories and regions]].''
+
+{| class="wikitable sortable"
+! class="unsortable" | Flag
+! Name
+! Capital
+! Status
+|-
+| {{flagicon|Abkhazia|size=50px}}
+| '''''[[Abkhazia]]'''''
+| [[Sukhumi]]
+| ''De facto'' sovereign state lacking general international recognition<br /> Recognized by the [[United Nations]] as part of [[Georgia (country)|Georgia]]
+|-
+| {{flagicon|Afghanistan|size=50px}}
+| '''[[Afghanistan]]'''
+| [[Kabul]]
+|
+|-
+| {{flagicon|Akrotiri and Dhekelia|size=50px}}
+| ''[[Akrotiri and Dhekelia]]''
+| [[Episkopi Cantonment]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Armenia|size=50px}}
+| '''[[Armenia]]''' {{Cref2|Europe}}
+| [[Yerevan]]
+|
+|-
+| {{flagicon|Azerbaijan|size=50px}}
+| '''[[Azerbaijan]]''' {{Cref2|Europe}}
+| [[Baku]]
+|
+|-
+| {{flagicon|Bahrain|size=50px}}
+| '''[[Bahrain]]'''
+| [[Manama]]
+|
+|-
+| {{flagicon|Bangladesh|size=50px}}
+| '''[[Bangladesh]]'''
+| [[Dhaka]]
+|
+|-
+| {{flagicon|Bhutan|size=50px}}
+| '''[[Bhutan]]'''
+| [[Thimphu]]
+|
+|-
+| {{flagicon|British Indian Ocean Territory|size=50px}}
+| ''[[British Indian Ocean Territory]]''
+| [[Diego Garcia]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Brunei|size=50px}}
+| '''[[Brunei]]'''
+| [[Bandar Seri Begawan]]
+|
+|-
+| {{flagicon|Cambodia|size=50px}}
+| '''[[Cambodia]]'''
+| [[Phnom Penh]]
+|
+|-
+| {{flagicon|China|size=50px}}
+| '''[[China]]'''
+| [[Beijing]]
+|
+|-
+| {{flagicon|Christmas Island|size=50px}}
+| ''[[Christmas Island]]''
+| [[Flying Fish Cove]]
+| [[States and territories of Australia|External territory of Australia]]
+|-
+| {{flagicon|Cocos (Keeling) Islands|size=50px}}
+| ''[[Cocos (Keeling) Islands]]''
+| [[West Island, Cocos (Keeling) Islands|West Island]]
+| [[States and territories of Australia|External territory of Australia]]
+|-
+| {{flagicon|Cyprus|size=50px}}
+| '''[[Cyprus]]''' {{Cref2|Europe}}
+| [[Nicosia]]
+|
+|-
+|{{flagicon|Timor-Leste|size=50px}}
+| '''[[East Timor]]''' (Timor-Leste)
+| [[Dili]]
+|
+|-
+| {{flagicon|Georgia|size=50px}}
+| '''[[Georgia (country)|Georgia]]''' {{Cref2|Europe}}
+| [[Tbilisi]]
+|
+|-
+| {{flagicon|Hong Kong|size=50px}}
+| ''[[Hong Kong]]''
+| [[Hong Kong]]
+| [[Special Administrative Region of the People's Republic of China|Special administrative region of China]]
+|-
+| {{flagicon|India|size=50px}}
+| '''[[India]]'''
+| [[New Delhi]]
+|
+|-
+| {{flagicon|Indonesia|size=50px}}
+| '''[[Indonesia]]'''
+| [[Jakarta]]
+|
+|-
+| {{flagicon|Iran|size=50px}}
+| '''[[Iran]]'''
+| [[Tehran]]
+|
+|-
+| {{flagicon|Iraq|size=50px}}
+| '''[[Iraq]]'''
+| [[Baghdad]]
+|
+|-
+| {{flagicon|Israel|size=50px}}
+| '''[[Israel]]'''
+| [[Jerusalem]]
+|
+|-
+| {{flagicon|Japan|size=50px}}
+| '''[[Japan]]'''
+| [[Tokyo]]
+|
+|-
+| {{flagicon|Jordan|size=50px}}
+| '''[[Jordan]]'''
+| [[Amman]]
+|
+|-
+| {{flagicon|Kazakhstan|size=50px}}
+| '''[[Kazakhstan]]'''
+| [[Astana]]
+|
+|-
+| {{flagicon|Kuwait|size=50px}}
+| '''[[Kuwait]]'''
+| [[Kuwait City]]
+|
+|-
+| {{flagicon|Kyrgyzstan|size=50px}}
+| '''[[Kyrgyzstan]]'''
+| [[Bishkek]]
+|
+|-
+| {{flagicon|Laos|size=50px}}
+| '''[[Laos]]'''
+| [[Vientiane]]
+|
+|-
+| {{flagicon|Lebanon|size=50px}}
+| '''[[Lebanon]]'''
+| [[Beirut]]
+|
+|-
+| {{flagicon|Macau|size=50px}}
+| ''[[Macau]]''
+| —
+| [[Special Administrative Region of the People's Republic of China|Special administrative region of China]]
+|-
+| {{flagicon|Malaysia|size=50px}}
+| '''[[Malaysia]]'''
+| [[Kuala Lumpur]] (official)<br /> [[Putrajaya]] ([[seat of government]])
+|
+|-
+| {{flagicon|Maldives|size=50px}}
+| '''[[Maldives]]'''
+| [[Malé]]
+|
+|-
+| {{flagicon|Mongolia|size=50px}}
+| '''[[Mongolia]]'''
+| [[Ulaanbaatar]]
+|
+|-
+| {{flagicon|Myanmar|size=50px}}
+| '''[[Myanmar]]''' (Burma)
+| [[Naypyidaw]]
+|
+|-
+| {{flagicon|Nagorno-Karabakh|size=50px}}
+| '''''[[Nagorno-Karabakh Republic|Nagorno-Karabakh]]'''''
+| [[Stepanakert]]
+| ''De facto'' sovereign state lacking general international recognition<br /> Recognized by the [[United Nations]] as part of [[Azerbaijan]]
+|-
+| {{flagicon|Nepal|size=35px}}
+| '''[[Nepal]]'''
+| [[Kathmandu]]
+|-
+|
+|-
+| {{flagicon|Northern Cyprus|size=50px}}
+| '''''[[Northern Cyprus]]'''''
+| [[Nicosia]]
+| ''De facto'' sovereign state lacking general international recognition<br /> Recognized by the [[United Nations]] as part of [[Cyprus]]
+|-
+| {{flagicon|North Korea|size=50px}}
+| '''[[North Korea]]'''
+| [[Pyongyang]]
+|
+|-
+| {{flagicon|Oman|size=50px}}
+| '''[[Oman]]'''
+| [[Muscat, Oman|Muscat]]
+|
+|-
+| {{flagicon|Pakistan|size=50px}}
+| '''[[Pakistan]]'''
+| [[Islamabad]]
+|
+|-
+| {{flagicon|Palestine|size=50px}}
+| '''[[State of Palestine|Palestine]]'''
+| [[East Jerusalem]] (claimed capital)<br /> [[Ramallah]] ([[West Bank]] seat of government)<br /> [[Gaza City|Gaza]] ([[Gaza Strip]] seat of government)
+|
+|-
+| {{flagicon|Philippines|size=50px}}
+| '''[[Philippines]]'''
+| [[Manila]]
+|
+|-
+| {{flagicon|Qatar|size=50px}}
+| '''[[Qatar]]'''
+| [[Doha]]
+|
+|-
+| {{flagicon|Saudi Arabia|size=50px}}
+| '''[[Saudi Arabia]]'''
+| [[Riyadh]]
+|
+|-
+| {{flagicon|Singapore|size=50px}}
+| '''[[Singapore]]'''
+| [[Singapore]]
+|
+|-
+| {{flagicon|South Korea|size=50px}}
+| '''[[South Korea]]'''
+| [[Seoul]]
+|
+|-
+| {{flagicon|South Ossetia|size=50px}}
+| '''''[[South Ossetia]]'''''
+| [[Tskhinvali]]
+| ''De facto'' sovereign state lacking general international recognition<br /> Recognized by the [[United Nations]] as part of [[Georgia (country)|Georgia]]
+|-
+| {{flagicon|Sri Lanka|size=50px}}
+| '''[[Sri Lanka]]'''
+| [[Sri Jayawardenapura Kotte]]
+|
+|-
+| {{flagicon|Syria|size=50px}}
+| '''[[Syria]]'''
+| [[Damascus]]
+|
+|-
+| {{flagicon|Taiwan|size=50px}}
+| '''''[[Taiwan]]'''''
+| [[Taipei]]
+| ''De facto'' sovereign state lacking general international recognition<br /> Recognized by the [[United Nations]] as part of [[China]].
+|-
+| {{flagicon|Tajikistan|size=50px}}
+| '''[[Tajikistan]]'''
+| [[Dushanbe]]
+|
+|-
+| {{flagicon|Thailand|size=50px}}
+| '''[[Thailand]]'''
+| [[Bangkok]]
+|
+|-
+| {{flagicon|Turkey|size=50px}}
+| '''[[Turkey]]''' {{Cref2|Europe}}
+| [[Ankara]]
+|
+|-
+| {{flagicon|Turkmenistan|size=50px}}
+| '''[[Turkmenistan]]'''
+| [[Ashgabat]]
+|
+|-
+| {{flagicon|United Arab Emirates|size=50px}}
+| '''[[United Arab Emirates]]'''
+| [[Abu Dhabi]]
+|
+|-
+| {{flagicon|Uzbekistan|size=50px}}
+| '''[[Uzbekistan]]'''
+| [[Tashkent]]
+|
+|-
+| {{flagicon|Vietnam|size=50px}}
+| '''[[Vietnam]]'''
+| [[Hanoi]]
+|
+|-
+| {{flagicon|Yemen|size=50px}}
+| '''[[Yemen]]'''
+| [[Sana'a]]
+|
+|}
+*Transcontinental countries in Europe and Asia, classified as [[Eastern Europe|Eastern European]] countries by the [[United Nations Statistics Division]]: <br/> '''{{flag|Russia}}'''.
+
+===Europe===
+{{main|Europe|List of sovereign states and dependent territories in Europe}}
+{{see also|Eurasia|List of sovereign states and dependent territories in Eurasia}}
+{{further|Geography of Europe}}
+''For a table of sovereign states and dependent territories in Europe with geographical data such as area, population, and population density, see [[Europe#Political geography|Europe: political geography]].''
+
+{| class="wikitable sortable"
+! class="unsortable" | Flag
+! Name
+! Capital
+! Status
+|-
+| {{flagicon|Åland Islands|size=50px}}
+| ''[[Åland Islands]]''
+| [[Mariehamn]]
+| Autonomous region of [[Finland]] (recognized by international treaty)
+|-
+| {{flagicon|Albania|size=50px}}
+| '''[[Albania]]'''
+| [[Tirana]]
+|
+|-
+| {{flagicon|Andorra|size=50px}}
+| '''[[Andorra]]'''
+| [[Andorra la Vella]]
+|
+|-
+| {{flagicon|Austria|size=50px}}
+| '''[[Austria]]'''
+| [[Vienna]]
+|
+|-
+| {{flagicon|Belarus|size=50px}}
+| '''[[Belarus]]'''
+| [[Minsk]]
+|
+|-
+| {{flagicon|Belgium|size=50px}}
+| '''[[Belgium]]'''
+| [[Brussels]]
+|
+|-
+| {{flagicon|Bosnia and Herzegovina|size=50px}}
+| '''[[Bosnia and Herzegovina]]'''
+| [[Sarajevo]]
+|
+|-
+| {{flagicon|Bulgaria|size=50px}}
+| '''[[Bulgaria]]'''
+| [[Sofia]]
+|
+|-
+| {{flagicon|Croatia|size=50px}}
+| '''[[Croatia]]'''
+| [[Zagreb]]
+|
+|-
+| {{flagicon|Czech Republic|size=50px}}
+| '''[[Czech Republic]]'''
+| [[Prague]]
+|
+|-
+| {{flagicon|Denmark|size=50px}}
+| '''[[Denmark]]'''
+| [[Copenhagen]]
+|
+|-
+| {{flagicon|Estonia|size=50px}}
+| '''[[Estonia]]'''
+| [[Tallinn]]
+|
+|-
+| {{flagicon|Faroe Islands|size=50px}}
+| ''[[Faroe Islands]]''
+| [[Tórshavn]]
+| Self-governing territory of the [[Danish Realm]]
+|-
+| {{flagicon|Finland|size=50px}}
+| '''[[Finland]]'''
+| [[Helsinki]]
+|
+|-
+| {{flagicon|France|size=50px}}
+| '''[[France]]'''
+| [[Paris]]
+|
+|-
+| {{flagicon|Germany|size=50px}}
+| '''[[Germany]]'''
+| [[Berlin]]
+|
+|-
+| {{flagicon|Gibraltar|size=50px}}
+| ''[[Gibraltar]]''
+| [[Gibraltar]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Greece|size=50px}}
+| '''[[Greece]]'''
+| [[Athens]]
+|
+|-
+| {{flagicon|Guernsey|size=50px}}
+| ''[[Guernsey]]''
+| [[Saint Peter Port]]
+| [[Crown Dependencies|Crown dependency of the United Kingdom]]
+|-
+| {{flagicon|Hungary|size=50px}}
+| '''[[Hungary]]'''
+| [[Budapest]]
+|
+|-
+| {{flagicon|Iceland|size=50px}}
+| '''[[Iceland]]'''
+| [[Reykjavík]]
+|
+|-
+| {{flagicon|Ireland|size=50px}}
+| '''[[Republic of Ireland|Ireland]]'''
+| [[Dublin]]
+|
+|-
+| {{flagicon|Isle of Man|size=50px}}
+| ''[[Isle of Man]]''
+| [[Douglas, Isle of Man|Douglas]]
+| [[Crown Dependencies|Crown dependency of the United Kingdom]]
+|-
+| {{flagicon|Italy|size=50px}}
+| '''[[Italy]]'''
+| [[Rome]]
+|
+|-
+| {{flagicon|Norway|size=50px}}
+| ''[[Jan Mayen]]''
+| —
+| Special territory of [[Norway]]
+|-
+| {{flagicon|Jersey|size=50px}}
+| ''[[Jersey]]''
+| [[Saint Helier]]
+| [[Crown Dependencies|Crown dependency of the United Kingdom]]
+|-
+| {{flagicon|Kosovo|size=50px}}
+| '''''[[Republic of Kosovo|Kosovo]]'''''
+| [[Pristina]]
+| ''De facto'' sovereign state recognized by {{Numrec|Kosovo||UN member states}} <br /> A [[United Nations]] [[Kosovo Force|mandate]] in [[Serbia]]n territory was put in place starting in 1999.
+|-
+| {{flagicon|Latvia|size=50px}}
+| '''[[Latvia]]'''
+| [[Riga]]
+|
+|-
+| {{flagicon|Liechtenstein|size=50px}}
+| '''[[Liechtenstein]]'''
+| [[Vaduz]]
+|
+|-
+| {{flagicon|Lithuania|size=50px}}
+| '''[[Lithuania]]'''
+| [[Vilnius]]
+|
+|-
+| {{flagicon|Luxembourg|size=50px}}
+| '''[[Luxembourg]]'''
+| [[Luxembourg, Luxembourg|Luxembourg]]
+|
+|-
+| {{flagicon|Macedonia|size=50px}}
+| '''[[Republic of Macedonia|Macedonia]]'''
+| [[Skopje]]
+|
+|-
+| {{flagicon|Malta|size=50px}}
+| '''[[Malta]]'''
+| [[Valletta]]
+|
+|-
+| {{flagicon|Moldova|size=50px}}
+| '''[[Moldova]]'''
+| [[Chişinău]]
+|
+|-
+| {{flagicon|Monaco|size=40px}}
+| '''[[Monaco]]'''
+| [[Monaco]]
+|
+|-
+| {{flagicon|Montenegro|size=50px}}
+| '''[[Montenegro]]'''
+| [[Podgorica]]
+|
+|-
+| {{flagicon|Netherlands|size=50px}}
+| '''[[Kingdom of the Netherlands|Netherlands]]'''
+| [[Amsterdam]]
+|
+|-
+| {{flagicon|Norway|size=50px}}
+| '''[[Norway]]'''
+| [[Oslo]]
+|
+|-
+| {{flagicon|Poland|size=50px}}
+| '''[[Poland]]'''
+| [[Warsaw]]
+|
+|-
+| {{flagicon|Portugal|size=50px}}
+| '''[[Portugal]]'''
+| [[Lisbon]]
+|
+|-
+| {{flagicon|Romania|size=50px}}
+| '''[[Romania]]'''
+| [[Bucharest]]
+|
+|-
+| {{flagicon|Russia|size=50px}}
+| '''[[Russia]]'''
+| [[Moscow]]
+|
+|-
+| {{flagicon|San Marino|size=50px}}
+| '''[[San Marino]]'''
+| [[San Marino, San Marino|San Marino]]
+|
+|-
+| {{flagicon|Serbia|size=50px}}
+| '''[[Serbia]]'''
+| [[Belgrade]]
+|
+|-
+| {{flagicon|Slovakia|size=50px}}
+| '''[[Slovakia]]'''
+| [[Bratislava]]
+|
+|-
+| {{flagicon|Slovenia|size=50px}}
+| '''[[Slovenia]]'''
+| [[Ljubljana]]
+|
+|-
+| {{flagicon|Spain|size=50px}}
+| '''[[Spain]]'''
+| [[Madrid]]
+|
+|-
+| {{flagicon|Svalbard|size=50px}}
+| ''[[Svalbard]]''
+| [[Longyearbyen]]
+| Special territory of [[Norway]] (recognized by international treaty)
+|-
+| {{flagicon|Sweden|size=50px}}
+| '''[[Sweden]]'''
+| [[Stockholm]]
+|
+|-
+| {{flagicon|Switzerland|size=40px}}
+| '''[[Switzerland]]'''
+| [[Bern]]
+|
+|-
+| {{flagicon|Transnistria|size=50px}}
+| '''''[[Transnistria]]'''''
+| [[Tiraspol]]
+| ''De facto'' sovereign state lacking general international recognition<br /> Recognized by the [[United Nations]] as part of [[Moldova]]
+|
+|-
+| {{flagicon|Ukraine|size=50px}}
+| '''[[Ukraine]]'''
+| [[Kyiv]]
+|
+|-
+| {{flagicon|United Kingdom|size=50px}}
+| '''[[United Kingdom]]'''
+| [[London]]
+|
+|-
+| {{flagicon|Vatican City|size=40px}}
+| '''[[Vatican City]]/[[Holy See]]'''
+| [[Vatican City]]
+|
+|}
+
+; Notes
+{{Cnote2 Begin|liststyle=none}}
+{{Cnote2|Europe|n=0|
+*Transcontinental countries in Europe and Asia, classified as [[West Asia]]n countries by the [[United Nations Statistics Division]]: '''{{flag|Azerbaijan}}''',  '''{{flag|Georgia}}''',  '''{{flag|Kazakhstan}}''',  '''{{flag|Turkey}}'''.
+*Entirely in West Asia, but commonly associated with Europe and a member of the Council of Europe: '''{{flag|Armenia}}''',  '''{{flag|Cyprus}}'''.
+}}
+{{Cnote2 End}}
+
+===North America===
+{{main|North America|List of sovereign states and dependent territories in North America}}
+{{see also|Americas|List of sovereign states and dependent territories in the Americas}}
+{{further|Geography of North America}}
+''For a table of sovereign states and dependent territories in North America with geographical data such as area, population, and population density, see [[North America#Countries and territories|North America: countries and territories]].''
+
+{| class="wikitable sortable"
+! class="unsortable" | Flag
+! Name
+! Capital
+! Status
+|-
+| {{flagicon|Anguilla|size=50px}}
+| ''[[Anguilla]]''
+| [[The Valley, Anguilla|The Valley]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Antigua and Barbuda|size=50px}}
+| '''[[Antigua and Barbuda]]'''
+| [[St. John's, Antigua and Barbuda|St. John's]]
+|
+|-
+| {{flagicon|Aruba|size=50px}}
+| ''[[Aruba]]''
+| [[Oranjestad, Aruba|Oranjestad]]
+| [[Kingdom of the Netherlands|Constituent country of the Kingdom of the Netherlands]]
+|-
+| {{flagicon|Bahamas|size=50px}}
+| '''[[Bahamas]]'''
+| [[Nassau, Bahamas|Nassau]]
+|
+|-
+| {{flagicon|Barbados|size=50px}}
+| '''[[Barbados]]'''
+| [[Bridgetown]]
+|
+|-
+| {{flagicon|Belize|size=50px}}
+| '''[[Belize]]'''
+| [[Belmopan]]
+|
+|-
+| {{flagicon|Bermuda|size=50px}}
+| ''[[Bermuda]]''
+| [[Hamilton, Bermuda|Hamilton]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Bonaire|size=50px}}
+| ''[[Bonaire]]''
+| [[Kralendijk]]
+| [[Kingdom of the Netherlands|Special municipality of the Netherlands]]
+|-
+| {{flagicon|British Virgin Islands|size=50px}}
+| ''[[British Virgin Islands]]''
+| [[Road Town]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Canada|size=50px}}
+| '''[[Canada]]'''
+| [[Ottawa]]
+|
+|-
+| {{flagicon|Cayman Islands|size=50px}}
+| ''[[Cayman Islands]]''
+| [[George Town, Cayman Islands|George Town]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Clipperton Island|size=50px}}
+| ''[[Clipperton Island]]''
+| —
+| [[Overseas departments and territories of France|Overseas territory of France]]
+|-
+| {{flagicon|Costa Rica|size=50px}}
+| '''[[Costa Rica]]'''
+| [[San José, Costa Rica|San José]]
+|
+|-
+| {{flagicon|Cuba|size=50px}}
+| '''[[Cuba]]'''
+| [[Havana]]
+|
+|-
+| {{flagicon|Curaçao|size=50px}}
+| ''[[Curaçao]]''
+| [[Willemstad]]
+| [[Kingdom of the Netherlands|Constituent country of the Kingdom of the Netherlands]]
+|-
+| {{flagicon|Dominica|size=50px}}
+| '''[[Dominica]]'''
+| [[Roseau]]
+|
+|-
+| {{flagicon|Dominican Republic|size=50px}}
+| '''[[Dominican Republic]]'''
+| [[Santo Domingo]]
+|
+|-
+| {{flagicon|El Salvador|size=50px}}
+| '''[[El Salvador]]'''
+| [[San Salvador]]
+|
+|-
+| {{flagicon|Greenland|size=50px}}
+| ''[[Greenland]]''
+| [[Nuuk]]
+| Self-governing territory of the [[Danish Realm]]
+|-
+| {{flagicon|Grenada|size=50px}}
+| '''[[Grenada]]'''
+| [[St. George's, Grenada|St. George's]]
+|
+|-
+| {{flagicon|Guadeloupe|size=50px}}
+| ''[[Guadeloupe]]''
+| [[Basse-Terre]]
+| [[Overseas departments and territories of France|Overseas department of France]]
+|-
+| {{flagicon|Guatemala|size=50px}}
+| '''[[Guatemala]]'''
+| [[Guatemala City]]
+|
+|-
+| {{flagicon|Haiti|size=50px}}
+| '''[[Haiti]]'''
+| [[Port-au-Prince]]
+|
+|-
+| {{flagicon|Honduras|size=50px}}
+| '''[[Honduras]]'''
+| [[Tegucigalpa]]
+|
+|-
+| {{flagicon|Jamaica|size=50px}}
+| '''[[Jamaica]]'''
+| [[Kingston, Jamaica|Kingston]]
+|
+|-
+| {{flagicon|Martinique|size=50px}}
+| ''[[Martinique]]''
+| [[Fort-de-France]]
+| [[Overseas departments and territories of France|Overseas department of France]]
+|-
+| {{flagicon|Mexico|size=50px}}
+| '''[[Mexico]]'''
+| [[Mexico City]]
+|
+|-
+| {{flagicon|Montserrat|size=50px}}
+| ''[[Montserrat]]''
+| [[Plymouth, Montserrat|Plymouth]] (official)<br /> [[Brades]] ([[seat of government]])
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Navassa Island|size=50px}}
+| ''[[Navassa Island]]''
+| [[Lulu Town]]
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Nicaragua|size=50px}}
+| '''[[Nicaragua]]'''
+| [[Managua]]
+|
+|-
+| {{flagicon|Panama|size=50px}}
+| '''[[Panama]]'''
+| [[Panama City]]
+|
+|-
+| {{flagicon|Puerto Rico|size=50px}}
+| ''[[Puerto Rico]]''
+| [[San Juan, Puerto Rico|San Juan]]
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Saba|size=50px}}
+| ''[[Saba]]''
+| [[The Bottom]]
+| [[Kingdom of the Netherlands|Special municipality of the Netherlands]]
+|-
+| {{flagicon|Saint Barthélemy|size=50px}}
+| ''[[Saint Barthélemy]]''
+| [[Gustavia, Saint Barthélemy|Gustavia]]
+| [[Overseas collectivity]] of [[France]]
+|-
+| {{flagicon|Saint Kitts and Nevis|size=50px}}
+| '''[[Saint Kitts and Nevis]]'''
+| [[Basseterre]]
+|
+|-
+| {{flagicon|Saint Lucia|size=50px}}
+| '''[[Saint Lucia]]'''
+| [[Castries]]
+|
+|-
+| {{flagicon|Saint Martin|size=50px}}
+| ''[[Saint Martin (France)|Saint Martin]]''
+| [[Marigot, Saint Martin|Marigot]]
+| [[Overseas collectivity]] of [[France]]
+|-
+| {{flagicon|Saint Pierre and Miquelon|size=50px}}
+| ''[[Saint Pierre and Miquelon]]''
+| [[Saint-Pierre, Saint Pierre and Miquelon|Saint-Pierre]]
+| [[Overseas collectivity]] of [[France]]
+|-
+| {{flagicon|Saint Vincent and the Grenadines|size=50px}}
+| '''[[Saint Vincent and the Grenadines]]'''
+| [[Kingstown]]
+|
+|-
+| {{flagicon|Sint Eustatius|size=50px}}
+| ''[[Sint Eustatius]]''
+| [[Oranjestad, Sint Eustatius|Oranjestad]]
+| [[Kingdom of the Netherlands|Special municipality of the Netherlands]]
+|-
+| {{flagicon|Sint Maarten|size=50px}}
+| ''[[Sint Maarten]]''
+| [[Philipsburg, Sint Maarten|Philipsburg]]
+| [[Kingdom of the Netherlands|Constituent country of the Kingdom of the Netherlands]]
+|-
+| {{flagicon|Trinidad and Tobago|size=50px}}
+| '''[[Trinidad and Tobago]]'''
+| [[Port of Spain]]
+|
+|-
+| {{flagicon|Turks and Caicos Islands|size=50px}}
+| ''[[Turks and Caicos Islands]]''
+| [[Cockburn Town]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|United States|size=50px}}
+| '''[[United States|United States of America]]'''
+| [[Washington, D.C.]]
+|
+|-
+| {{flagicon|United States Virgin Islands|size=50px}}
+| ''[[United States Virgin Islands]]''
+| [[Charlotte Amalie, United States Virgin Islands|Charlotte Amalie]]
+| [[Insular area|Insular area of the United States of America]]
+|}
+
+===South America===
+{{main|South America|List of sovereign states and dependent territories in South America}}
+{{see also|Americas|List of sovereign states and dependent territories in the Americas}}
+{{further|Geography of South America}}
+''For a table of sovereign states and dependent territories in South America with geographical data such as area, population, and population density, see [[South America#Demographics|South America: demographics]].''
+
+{| class="wikitable sortable"
+! class="unsortable" | Flag
+! Name
+! Capital
+! Status
+|-
+| {{flagicon|Argentina|size=50px}}
+| '''[[Argentina]]'''
+| [[Buenos Aires]]
+|
+|-
+| {{flagicon|Bolivia|size=50px}}
+| '''[[Bolivia]]'''
+| [[Sucre]] (official)<br /> [[La Paz]] ([[seat of government]])
+|
+|-
+| {{flagicon|Brazil|size=50px}}
+| '''[[Brazil]]'''
+| [[Brasília]]
+|
+|-
+| {{flagicon|Chile|size=50px}}
+| '''[[Chile]]'''
+| [[Santiago, Chile|Santiago]]
+|
+|-
+| {{flagicon|Colombia|size=50px}}
+| '''[[Colombia]]'''
+| [[Bogotá]]
+|
+|-
+| {{flagicon|Ecuador|size=50px}}
+| '''[[Ecuador]]'''
+| [[Quito]]
+|
+|-
+| {{flagicon|Falkland Islands|size=50px}}
+| ''[[Falkland Islands]]''
+| [[Stanley, Falkland Islands|Stanley]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|French Guiana|size=50px}}
+| ''[[French Guiana]]''
+| [[Cayenne]]
+| [[Overseas departments and territories of France|Overseas department of France]]
+|-
+| {{flagicon|Guyana|size=50px}}
+| '''[[Guyana]]'''
+| [[Georgetown, Guyana|Georgetown]]
+|
+|-
+| {{flagicon|Paraguay|size=50px}}
+| '''[[Paraguay]]'''
+| [[Asunción]]
+|
+|-
+| {{flagicon|Peru|size=50px}}
+| '''[[Peru]]'''
+| [[Lima]]
+|
+|-
+| {{flagicon|South Georgia and the South Sandwich Islands|size=50px}}
+| ''[[South Georgia and the South Sandwich Islands]]''
+| [[King Edward Point]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Suriname|size=50px}}
+| '''[[Suriname]]'''
+| [[Paramaribo]]
+|
+|-
+| {{flagicon|Uruguay|size=50px}}
+| '''[[Uruguay]]'''
+| [[Montevideo]]
+|
+|-
+| {{flagicon|Venezuela|size=50px}}
+| '''[[Venezuela]]'''
+| [[Caracas]]
+|
+|}
+
+===Oceania===
+{{main|Oceania|List of sovereign states and dependent territories in Oceania}}
+{{see also|Australia (continent)|Pacific Islands}}
+{{further|Geography of Oceania}}
+''For a table of sovereign states and dependent territories in Oceania with geographical data such as area, population, and population density, see [[Oceania#Territories and regions|Oceania: territories and regions]].''
+
+{| class="wikitable sortable"
+! class="unsortable" | Flag
+! Name
+! Capital
+! Status
+|-
+| {{flagicon|American Samoa|size=50px}}
+| ''[[American Samoa]]''
+| [[Pago Pago]]
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Ashmore and Cartier Islands|size=50px}}
+| ''[[Ashmore and Cartier Islands]]''
+| —
+| [[States and territories of Australia|External territory of Australia]]
+|-
+| {{flagicon|Australia|size=50px}}
+| '''[[Australia]]'''
+| [[Canberra]]
+|
+|-
+| {{flagicon|Baker Island|size=50px}}
+| ''[[Baker Island]]''
+| —
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Cook Islands|size=50px}}
+| '''''[[Cook Islands]]'''''
+| [[Avarua]]
+| [[Realm of New Zealand|Self-governing parliamentary democracy in free association with New Zealand]]. It shares a [[Monarchy of New Zealand|head of state]] with New Zealand as well as having [[New Zealand nationality law|shared citizenship]], but is independent in its international affairs.
+|-
+| {{flagicon|Coral Sea Islands|size=50px}}
+| ''[[Coral Sea Islands]]''
+| —
+| [[States and territories of Australia|External territory of Australia]]
+|-
+| {{flagicon|Fiji|size=50px}}
+| '''[[Fiji]]'''
+| [[Suva]]
+|
+|-
+| {{flagicon|French Polynesia|size=50px}}
+| ''[[French Polynesia]]''
+| [[Papeete]]
+| [[Overseas collectivity]] of [[France]]
+|-
+| {{flagicon|Guam|size=50px}}
+| ''[[Guam]]''
+| [[Hagåtña]]
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Howland Island|size=50px}}
+| ''[[Howland Island]]''
+| —
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Jarvis Island|size=50px}}
+| ''[[Jarvis Island]]''
+| —
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Johnston Atoll|size=50px}}
+| ''[[Johnston Atoll]]''
+| —
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Kingman Reef|size=50px}}
+| ''[[Kingman Reef]]''
+| —
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Kiribati|size=50px}}
+| '''[[Kiribati]]'''
+| [[South Tarawa]]
+|
+|-
+| {{flagicon|Marshall Islands|size=50px}}
+| '''[[Marshall Islands]]'''
+| [[Majuro]]
+|
+|-
+| {{flagicon|Federated States of Micronesia|size=50px}}
+| '''[[Federated States of Micronesia|Micronesia]]'''
+| [[Palikir]]
+|
+|-
+| {{flagicon|Midway Atoll|size=50px}}
+| ''[[Midway Atoll]]''
+| —
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Nauru|size=50px}}
+| '''[[Nauru]]'''
+| [[Yaren, Nauru|Yaren]] ([[seat of government]])
+|
+|-
+| {{flagicon|New Caledonia|size=50px}}
+| ''[[New Caledonia]]''
+| [[Nouméa]]
+| ''[[Sui generis collectivity]]'' (special collectivity) of [[France]]
+|-
+| {{flagicon|New Zealand|size=50px}}
+| '''[[New Zealand]]'''
+| [[Wellington]]
+|
+|-
+| {{flagicon|Niue|size=50px}}
+| '''''[[Niue]]'''''
+| [[Alofi]]
+| [[Realm of New Zealand|Self-governing parliamentary democracy in free association with New Zealand]]. It shares a [[Monarchy of New Zealand|head of state]] with New Zealand as well as having [[New Zealand nationality law|shared citizenship]], but is independent in its international affairs.
+|-
+| {{flagicon|Norfolk Island|size=50px}}
+| ''[[Norfolk Island]]''
+| [[Kingston, Norfolk Island|Kingston]]
+| [[States and territories of Australia|Self-governing territory of Australia]]
+|-
+| {{flagicon|Northern Mariana Islands|size=50px}}
+| ''[[Northern Mariana Islands]]''
+| [[Saipan]]
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Palau|size=50px}}
+| '''[[Palau]]'''
+| [[Ngerulmud]]
+|
+|-
+| {{flagicon|Palmyra Atoll|size=50px}}
+| ''[[Palmyra Atoll]]''
+| —
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Papua New Guinea|size=50px}}
+| '''[[Papua New Guinea]]'''
+| [[Port Moresby]]
+|
+|-
+| {{flagicon|Pitcairn Islands|size=50px}}
+| ''[[Pitcairn Islands]]''
+| [[Adamstown, Pitcairn Islands|Adamstown]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|-
+| {{flagicon|Samoa|size=50px}}
+| '''[[Samoa]]'''
+| [[Apia]]
+|
+|-
+| {{flagicon|Solomon Islands|size=50px}}
+| '''[[Solomon Islands]]'''
+| [[Honiara]]
+|
+|-
+| {{flagicon|Tokelau|size=50px}}
+| ''[[Tokelau]]''
+| [[Nukunonu]] (main settlement, although each atoll has its own administrative centre)
+| [[Realm of New Zealand|Dependent territory of New Zealand]]
+|-
+| {{flagicon|Tonga|size=50px}}
+| '''[[Tonga]]'''
+| [[Nukuʻalofa|Nuku{{Okina}}alofa]]
+|
+|-
+| {{flagicon|Tuvalu|size=50px}}
+| '''[[Tuvalu]]'''
+| [[Funafuti]]
+|
+|-
+| {{flagicon|Vanuatu|size=50px}}
+| '''[[Vanuatu]]'''
+| [[Port Vila]]
+|
+|-
+| {{flagicon|Wake Island|size=50px}}
+| ''[[Wake Island]]''
+| —
+| [[Insular area|Insular area of the United States of America]]
+|-
+| {{flagicon|Wallis and Futuna|local|size=50px}}
+| ''[[Wallis and Futuna]]''
+| [[Mata-Utu]]
+| [[Overseas collectivity]] of [[France]]
+|}
+
+===Antarctica===
+{{main|Antarctica}}
+{{further|Geography of Antarctica}}
+
+Antarctica is regulated by the [[Antarctic Treaty System]], which defines it as all land and ice shelves south of [[60th parallel south|60°S]], and has no government and belongs to no country. However, the following [[territorial claims in Antarctica]] have been made:
+* Argentina: [[Argentine Antarctica]]
+* Australia: [[Australian Antarctic Territory]]
+* Brazil: [[Brazilian Antarctica]] (unofficial)
+* Chile: [[Antártica]]
+* France: [[Adélie Land]] (part of the [[French Southern and Antarctic Lands]])
+* New Zealand: [[Ross Dependency]]
+* Norway: [[Peter I Island]] and [[Queen Maud Land]]
+* United Kingdom: [[British Antarctic Territory]]
+* (Unclaimed: [[Marie Byrd Land]])
+
+Moreover, the following dependent territories are situated in the wider [[Antarctic|Antarctic Region]]:
+
+{| class="wikitable sortable"
+! class="unsortable" | Flag
+! Name
+! Capital
+! Status
+|-
+| {{flagicon|Bouvet Island|size=50px}}
+| ''[[Bouvet Island]]''
+| —
+| [[Possessions of Norway|Dependent territory of Norway]]
+|-
+| {{flagicon|French Southern Territories|size=50px}}
+| ''[[French Southern and Antarctic Lands]]''
+| [[Alfred Faure]] ([[Crozet Islands]])<br /> [[Port-aux-Français]] ([[Kerguelen Islands]])<br /> [[Martin-de-Viviès]] ([[Île Saint-Paul|Saint Paul]] and [[Île Amsterdam|Amsterdam]] Islands)
+| [[Overseas departments and territories of France|Overseas territory of France]]
+|-
+| {{flagicon|Heard Island and McDonald Islands|size=50px}}
+| ''[[Heard Island and McDonald Islands]]''
+| —
+| [[States and territories of Australia|External territory of Australia]]
+|-
+| {{flagicon|South Georgia and the South Sandwich Islands|size=50px}}
+| ''[[South Georgia and the South Sandwich Islands]]''
+| [[King Edward Point]]
+| [[British Overseas Territories|Overseas territory of the United Kingdom]]
+|}
+
+==Geographical boundaries of continents==
+{{unreferenced section|date=October 2011}}
+{{Synthesis|date=April 2011}}
+{{further|Boundaries between continents}}
+In this section, the geographical boundaries of the continents are used to divide the world into continents, where differences from the [[#Classification according to United Nations geoscheme|previous list according to the United Nations geoscheme]] are noted.
+
+===Boundaries of Africa===
+''For a detailed description of the geographical boundaries of Africa, see [[Borders of the continents#Africa|Borders of the continents: Africa]].''
+
+====Suez Canal====
+Considering the [[Suez Canal]] as a boundary between [[Africa]] and [[Asia]], the following change from the previous list occurs:
+* '''[[Egypt]]''': Africa, west of the Suez Canal; to the east, Asia.
+
+====Continental shelf of Africa====
+Considering the [[continental shelf]] of [[Africa]], the following changes from the previous list occur:
+* '''[[French Southern and Antarctic Lands|French Southern Territories]]''': subantarctic territory; the [[Scattered islands in the Indian Ocean|Îles Éparses]] ([[Bassas da India]], [[Europa Island]], the [[Glorioso Islands]], [[Juan de Nova Island]], and [[Tromelin Island]]) in Africa.
+* '''[[Italy]]''': Europe; [[Pantelleria]] and the [[Pelagie Islands]] in Africa.
+* '''[[Malta]]''': Africa.
+* '''[[Portugal]]''': Europe; [[Madeira]] (including the [[Desertas Islands]] and the [[Savage Islands]]) in Africa.
+* '''[[Spain]]''': Europe; the [[Canary Islands]] and the [[plazas de soberanía]] in Africa (some of the plazas de soberanía, including [[Ceuta]] and [[Melilla]], are on mainland Africa).
+* '''[[Yemen]]''': Asia; [[Socotra]] in Africa.
+
+===Boundaries between Asia and Europe===
+''For a detailed description of the geographical boundaries between Asia and Europe, see [[Borders of the continents#Europe and Asia|Borders of the continents: Europe and Asia]].''
+
+====Sea of Marmara and Turkish Straits====
+Considering the [[Sea of Marmara]] and the [[Turkish Straits]] (the [[Bosporus]] and the [[Dardanelles]]) as a boundary between [[Asia]] and [[Europe]], the following change from the previous list occurs:
+* '''[[Turkey]]''': Asia, east and south of the Sea of Marmara and the Turkish Straits; to the west and north, Europe.
+
+====Ural definitions====
+Considering the Ural definition that follows the [[water divide|watershed]] of the [[Ural Mountains]], and then the [[Ural River]] until the [[Caspian Sea]], as a boundary between [[Asia]] and [[Europe]], the following changes from the previous list occur:
+* '''[[Kazakhstan]]''': Asia, east of the Ural River; to the west, Europe.
+* '''[[Russia]]''': Europe, west and north of the Ural Mountains watershed and the Ural River; to the east and south, Asia.
+
+Considering the Ural definition that follows the [[water divide|watershed]] of the [[Ural Mountains]], and then the [[Ural River]] until it reaches [[Kazakhstan]]'s border for the first time, and then the [[Or River]] and the [[Emba River]], as a boundary between [[Asia]] and [[Europe]], the following changes from the previous list occur:
+* '''[[Kazakhstan]]''': Asia, east of the Or River and the Emba River; to the west, Europe.
+* '''[[Russia]]''': Europe, west of the Ural Mountains watershed and the Ural River (until it reaches Kazakhstan's border for the first time); to the east, Asia.
+
+====Caucasus definitions====
+Considering the [[Caucasus]] definition that follows the [[water divide|watershed]] of the [[Greater Caucasus]] of the [[Caucasus Mountains]] as a boundary between [[Asia]] and [[Europe]], the following changes from the previous list occur:
+* '''[[Azerbaijan]]''': Asia, south of the Greater Caucasus watershed; to the north, Europe (very small area).
+* '''[[Georgia (country)|Georgia]]''': Asia, south of the Greater Caucasus watershed; to the north, Europe (very small area).
+* '''[[Russia]]''': Europe, north of the Greater Caucasus watershed; to the south, Asia (very small area).
+
+Considering the [[Caucasus]] definition that follows the [[Kuma-Manych Depression]], marked by the [[Kuma River (Russia)|Kuma River]] and the [[Manych River]], as a boundary between [[Asia]] and [[Europe]], the following change from the previous list occurs:
+* '''[[Russia]]''': Europe, north of the Kuma River and the Manych River; to the south, Asia.
+
+====Continental shelfs of Asia and Europe====
+Considering the [[continental shelf]]s of [[Asia]] and [[Europe]], the following change from the previous list occurs:
+* '''[[Greece]]''': Europe (including [[Crete]], the [[Ionian Islands]], the [[Cyclades]], and near mainland Greek islands); the [[Aegean Islands]], the [[Dodecanese]], and nearby islands in Asia.
+
+===Boundaries between Asia and North America===
+''For a detailed description of the geographical boundaries between Asia and North America, see [[Borders of the continents#Asia and North America|Borders of the continents: Asia and North America]].''
+
+====Continental shelfs of Asia and North America====
+Considering the [[continental shelf]]s of [[Asia]] and [[North America]], the following change from the previous list occurs:
+* '''[[United States]]''': North America; the [[Near Islands]] and [[St. Lawrence Island]] in Asia.
+
+===Boundaries between Europe and North America===
+''For a detailed description of the geographical boundaries between Europe and North America, see [[Borders of the continents#Europe and North America|Borders of the continents: Europe and North America]].''
+
+====Mid-Atlantic Ridge====
+Though very rare, considering the [[Mid-Atlantic Ridge]] as a boundary between [[Europe]] and [[North America]], the following change from the previous list occurs:
+* '''[[Iceland]]''': Europe, east of the Mid-Atlantic Ridge; to the west, North America.
+* '''[[Portugal]]''': Europe (including [[São Miguel Island|São Miguel]], [[Santa Maria Island|Santa Maria]], [[Terceira Island|Terceira]], [[Graciosa]], [[São Jorge Island|São Jorge]], [[Pico Island|Pico]], and [[Faial Island|Faial]] of the [[Azores]]); [[Flores Island (Azores)|Flores]] and [[Corvo Island|Corvo]] of the Azores in North America.
+
+===Boundaries between North and South America===
+''For a detailed description of the geographical boundaries between North and South America, see [[Borders of the continents#The Americas|Borders of the continents: the Americas]].''
+
+====Panama Canal====
+Considering the [[Panama Canal]] as a boundary between [[North America|North]] and [[South America]], the following change from the previous list occurs:
+* '''[[Panama]]''': North America, west of the Panama Canal; to the east, South America.
+
+====Continental shelfs of North and South America====
+Considering the [[continental shelf]]s of [[North America|North]] and [[South America]], the following changes from the previous list occur:
+* '''[[Aruba]]''': South America.
+* '''[[Bonaire]]''': South America.
+* '''[[Colombia]]''': South America; the [[Archipelago of San Andrés, Providencia and Santa Catalina]] in North America.
+* '''[[Curaçao]]''': South America.
+* '''[[Trinidad and Tobago]]''': South America.
+* '''[[Venezuela]]''': South America; [[Isla Aves]] in North America.
+
+===Boundaries of Oceania===
+''For a detailed description of the geographical boundaries of Oceania, see [[Borders of the continents#Asia and Oceania|Borders of the continents: Asia and Oceania]].''
+
+====Pacific Islands====
+Considering all [[Pacific Islands]] as being part of [[Oceania]], the following changes from the previous list occur:
+* '''[[Chile]]''': South America; [[Easter Island]] and [[Sala y Gómez]] in Oceania.
+* '''[[Clipperton Island]]''': Oceania
+* '''[[Japan]]''': Asia; the Bird Islands ([[Okinotorishima]] and [[Minami Torishima|Minamitorishima]]) in Oceania.
+* '''[[United States]]''': North America; [[Hawaii]] in Oceania.
+
+===Boundaries of Antarctica===
+''For a detailed description of the geographical boundaries of Antarctica, see [[Borders of the continents#Antarctica|Borders of the continents: Antarctica]].''
+
+====Subantarctic islands====
+Considering [[List of Antarctic and subantarctic islands]] north of 60°S which are fully integrated with its country, the following changes from the previous list occur:
+* '''[[Australia]]''': Oceania; [[Macquarie Island]], subantarctic territory.
+* '''[[New Zealand]]''': Oceania; the [[New Zealand Subantarctic Islands]] (the [[Antipodes Islands]], the [[Auckland Islands]], the [[Bounty Islands]], the [[Campbell Island group|Campbell Islands]], and the [[The Snares|Snares Islands]]), subantarctic territory.
+* '''[[South Africa]]''': Africa; the [[Prince Edward Islands]], subantarctic territory.
+
+==Continental intergovernmental organizations==
+{{main|Continental union}}
+
+There are a number of [[intergovernmental organization]]s with continental scope and having the most wide and possibly non-overlapping membership:
+* Africa: [[African Union]]
+* Asia: [[Asia Cooperation Dialogue]]
+* Europe: [[Council of Europe]]
+** Not to be confused with the [[European Union]] (EU)
+* Americas: [[Organization of American States]]
+** South America: [[Union of South American Nations]]
+* Oceania: [[Pacific Islands Forum]]
+
+Therefore, a member of one of these organizations may be considered as belonging to that particular continent according to political criteria. Considering this, the following changes from the previous list occur:
+* [[Armenia]], [[Azerbaijan]], [[Cyprus]], [[Georgia (country)|Georgia]], and [[Turkey]] are members of the [[Council of Europe]]. In particular, Cyprus is an [[Member State of the European Union|EU member]], while Turkey is a candidate.
+* [[Russia]] is a member of both the [[Council of Europe]] and the [[Asia Cooperation Dialogue]].
+
+However, in general only internationally recognized sovereign states are members of intergovernmental organizations, and not every one of them is a member of one of the organizations listed above.
+
+===Dependent territories===
+Dependent territories, through political ties with their mother countries, may be associated with another continent other than its own geographical continent. For example, [[French Guiana]], [[Guadeloupe]], [[Martinique]], and [[Réunion]], all overseas departments of France, are part of the EU and use the [[euro]] as their official currency. Other dependent territories of EU members, such as [[Greenland]], while not part of the EU, enjoy [[Special Member State territories and the European Union|special relationships with the EU]].
+
+The following dependent territories, all of them sparsely populated islands remote from continental mass, may be grouped into more than one continent, as there is no general convention as to which continent they belong to:
+* The [[British Indian Ocean Territory]] is geographically located in the [[Indian Ocean]], about equidistant from Africa and Asia. Politically it is administered from the United Kingdom, while historically it is part of Mauritius. It may be grouped into either Africa or Asia.
+* [[Christmas Island]] and [[Cocos (Keeling) Islands]] are geographically located in the Indian Ocean, much closer to Asia than to Australia. Politically they are administered from Australia. They may be grouped into Asia or Oceania.
+* [[Clipperton Island]] is geographically located in the [[Pacific Ocean]], much closer to North America than to other Pacific Islands. Politically they are administered from France, previously from French Polynesia. They may be grouped into North America or Oceania.
+* The [[French Southern Territories]], which exclude the Antarctic territorial claim of Adélie Land, are geographically located in the Indian Ocean; the Îles Éparses are close to Madagascar, while other islands are approximately equidistant from Africa, Antarctica and Australia. Politically they are administered from Réunion. They may be grouped into Africa or Antarctica.
+* [[South Georgia and the South Sandwich Islands]] is geographically in the [[Atlantic Ocean]], about equidistant from South America and Antarctica. Politically it is administered from the Falkland Islands. It may be grouped into South America or Antarctica.
+
+==See also==
+* [[List of sovereign states and dependent territories by continent (data file)]] &mdash; this data in a plain text format suitable for automated processing
+* [[List of countries and capitals in native languages]]
+* [[List of national capitals]]
+* [[Gallery of sovereign state flags]]
+* [[Gallery of dependent territory flags]]
+
+==References==
+<references />
+
+==External links==
+* [http://www.un.org/Depts/Cartographic/english/geoinfo/geoname.pdf UN List of Territories]
+* [https://www.cia.gov/library/publications/the-world-factbook/index.html CIA &ndash; The World Factbook]
+* [http://www.state.gov/r/pa/ei/bgn/ U.S. Department of State: Background notes]
+* [http://publications.europa.eu/code/en/en-5000500.htm European Commission: List of countries, territories and currencies]
+* [http://www.statoids.com/ Administrative Divisions of Countries ("Statoids")]
+* [http://archive.is/20121204142112/http://www.world-gazetteer.com/ World Gazetteer]
+
+{{Navboxes
+|list =
+{{Continents of the world|state=collapsed}}
+{{Lists of countries by continent}}
+}}
+
+{{DEFAULTSORT:Sovereign States And Dependent Territories By Continent, List Of}}
+[[Category:Lists of countries by continent| ]]
+[[Category:Dependent territories]]
