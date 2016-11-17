@@ -1,14 +1,12 @@
 ## pycountries Authors
-## Countries Library for Python 3.0
-## Update:  $Date: 2016-07-18 15:06:23 PDT $
+## Countries conversion functions for Python 2.7 and 3.0
 ===
 
 ## pycountries Authors
 ==========================================
 
-We'd like to thank the following people who have contributed to the `pycountries-python` repository.
+We'd like to thank the following people who have contributed to the `pycountries` repository.
 
-- Lee Brown <lee@tune.com>
 - Jeff Tanner <jefft@tune.com>
 - Zaq? Wiedmann <zaq@tune.com>
 
