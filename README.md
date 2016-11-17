@@ -1,7 +1,7 @@
 <h2>pycountries</h2>
 <h3>Python conversion functions for country codes, countries, and continents.</h3>
 <h4>Thursday, 2016 November 17, 2016 06:07:00 UTC</h4>
-<h4>Version: 0.1.0</h4>
+<h4>Version: 0.1.1</h4>
 ===
 
 All data derived for this package was pulled from wikipedia:
