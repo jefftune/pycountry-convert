@@ -124,10 +124,14 @@ local-dev: remove-package
 
 dist: clean
 	@echo "======================================================"
+	@echo remove $(PACKAGE_PREFIX_WILDCARD) and $(PACKAGE_WILDCARD)
+	@echo "======================================================"
+	find ./dist/ -name $(PACKAGE_WILDCARD) -exec rm -vf {} \;
+	find ./dist/ -name $(PACKAGE_PREFIX_WILDCARD) -exec rm -vf {} \;
+	@echo "======================================================"
 	@echo dist $(PACKAGE)
 	@echo "======================================================"
 	$(PIP3) install --upgrade -r requirements.txt
-	find ./dist/ -name $(PACKAGE_PREFIX_WILDCARD) -exec rm -vf {} \;
 	$(PYTHON3) $(SETUP_FILE) bdist_wheel upload
 	$(PYTHON3) $(SETUP_FILE) bdist_egg upload
 	$(PYTHON3) $(SETUP_FILE) sdist --format=zip,gztar upload
@@ -139,18 +143,17 @@ build: clean
 	@echo "======================================================"
 	@echo remove $(PACKAGE_PREFIX_WILDCARD) and $(PACKAGE_WILDCARD)
 	@echo "======================================================"
-	$(PIP3) install --upgrade -r requirements.txt
 	find ./dist/ -name $(PACKAGE_WILDCARD) -exec rm -vf {} \;
 	find ./dist/ -name $(PACKAGE_PREFIX_WILDCARD) -exec rm -vf {} \;
 	@echo "======================================================"
 	@echo build $(PACKAGE)
 	@echo "======================================================"
+	$(PIP3) install --upgrade -r requirements.txt
 	$(PYTHON3) $(SETUP_FILE) clean
 	$(PYTHON3) $(SETUP_FILE) build
 	$(PYTHON3) $(SETUP_FILE) install
 	$(PYTHON27) $(SETUP_FILE) bdist_egg
 	$(PYTHON27) $(SETUP_FILE) bdist_wheel
-
 	ls -al ./dist/$(PACKAGE_PREFIX_WILDCARD)
 
 tools-requirements: $(TOOLS_REQ_FILE)
