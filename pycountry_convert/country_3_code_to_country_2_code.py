@@ -1,5 +1,3 @@
-
-
 COUNTRY_3_CODE_TO_COUNTRY_2_CODE = {
     'ABH': 'AB',
     'ABW': 'AW',
