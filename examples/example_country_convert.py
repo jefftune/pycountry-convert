@@ -5,10 +5,7 @@
 import sys
 from pprintpp import pprint
 
-from pycountry_convert import (
-    convert_country_2_code_to_country_name,
-    convert_country_2_code_to_continent
-)
+from pycountry_convert import (convert_country_2_code_to_country_name, convert_country_2_code_to_continent)
 
 
 def main():
