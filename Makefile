@@ -137,10 +137,14 @@ dist: clean
 
 build: clean
 	@echo "======================================================"
-	@echo build $(PACKAGE)
+	@echo remove $(PACKAGE_PREFIX_WILDCARD) and $(PACKAGE_WILDCARD)
 	@echo "======================================================"
 	$(PIP3) install --upgrade -r requirements.txt
+	find ./dist/ -name $(PACKAGE_WILDCARD) -exec rm -vf {} \;
 	find ./dist/ -name $(PACKAGE_PREFIX_WILDCARD) -exec rm -vf {} \;
+	@echo "======================================================"
+	@echo build $(PACKAGE)
+	@echo "======================================================"
 	$(PYTHON3) $(SETUP_FILE) clean
 	$(PYTHON3) $(SETUP_FILE) build
 	$(PYTHON3) $(SETUP_FILE) install
