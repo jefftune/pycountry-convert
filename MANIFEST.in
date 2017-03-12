@@ -1,8 +1,7 @@
 include setup.py
+include README.rst
 include LICENSE
-include AUTHORS.md
-include CHANGES.md
-include README.md
-include Makefile
+include AUTHORS.rst
+include HISTORY.rst
 include requirements.txt
 recursive-include pycountry-convert *.py
