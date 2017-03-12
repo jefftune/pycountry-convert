@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #  @namespace pycountry-convert
@@ -5,6 +6,8 @@
 Country Alpha-3 code mapping to Country Alpha-2 code mapping.
 """
 
+=======
+>>>>>>> 03cf647d161b2e37bcea90415548ec01edeb2117
 COUNTRY_3_CODE_TO_COUNTRY_2_CODE = {
     'ABH': 'AB',
     'ABW': 'AW',

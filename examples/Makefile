@@ -1,14 +1,12 @@
 #   Makefile
 #
-#   License   http://opensource.org/licenses/MIT The MIT License (MIT)
 #
 
-.PHONY: clean install example
+.PHONY: example
 
-clean:
-	rm -fR __pycache__
-	rm -fR *.pyc
-	rm -fR tmp
+PYTHON3 := $(shell which python3)
+PIP3    := $(shell which pip3)
 
-example: clean
-	python3 example_countries.py
+example:
+	$(PIP3) install --upgrade pycountry-convert
+	$(PYTHON3) example_country_convert.py
