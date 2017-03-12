@@ -1,4 +1,9 @@
-
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+#  @namespace pycountry-convert
+"""
+Country Alpha-3 code mapping to Country Alpha-2 code mapping.
+"""
 
 COUNTRY_3_CODE_TO_COUNTRY_2_CODE = {
     'ABH': 'AB',
@@ -224,6 +229,7 @@ COUNTRY_3_CODE_TO_COUNTRY_2_CODE = {
     'TUV': 'TV',
     'TWN': 'TW',
     'TZA': 'TZ',
+    'UAE': 'AE',
     'UGA': 'UG',
     'UKR': 'UA',
     'URY': 'UY',
