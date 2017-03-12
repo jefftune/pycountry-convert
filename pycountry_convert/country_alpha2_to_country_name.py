@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 #  @namespace pycountry-convert
 """
-Country code to Country name mapping.
+Country Alpha-2 to Country name mapping.
 """
 
-COUNTRY_2_CODE_TO_COUNTRY_NAME = {
+COUNTRY_ALPHA2_TO_COUNTRY_NAME = {
     'AB': 'Abkhazia',
     'AD': 'Andorra',
     'AE': 'United Arab Emirates',
@@ -254,10 +254,10 @@ COUNTRY_2_CODE_TO_COUNTRY_NAME = {
 }
 
 
-def convert_country_2_code_to_country_name(country_2_code):
+def convert_country_alpha2_to_country_name(country_2_code):
     """Convert country code to country name.
     """
-    if country_2_code not in COUNTRY_2_CODE_TO_COUNTRY_NAME:
+    if country_2_code not in COUNTRY_ALPHA2_TO_COUNTRY_NAME:
         raise KeyError
 
-    return COUNTRY_2_CODE_TO_COUNTRY_NAME[country_2_code]
+    return COUNTRY_ALPHA2_TO_COUNTRY_NAME[country_2_code]

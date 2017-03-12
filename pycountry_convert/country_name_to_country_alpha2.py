@@ -5,9 +5,9 @@
 Country name to Country Alpha-2 code mapping.
 """
 
-from pycountry_convert.country_3_code_to_country_2_code import convert_country_3_code_to_country_2_code
+from pycountry_convert.country_alpha3_to_country_alpha2 import convert_country_alpha3_to_country_alpha2
 
-COUNTRY_NAME_TO_COUNTRY_2_CODE = {
+COUNTRY_NAME_TO_COUNTRY_ALPHA2 = {
     'Abkhazia': 'AB',
     'Afghanistan': 'AF',
     'Albania': 'AL',
@@ -284,10 +284,10 @@ COUNTRY_NAME_TO_COUNTRY_2_CODE = {
 }
 
 
-def convert_country_name_to_country_2_code(country_name):
+def convert_country_name_to_country_alpha2(country_name):
     """Convert country name to country code.
     """
-    if country_name not in COUNTRY_NAME_TO_COUNTRY_2_CODE:
-        return convert_country_3_code_to_country_2_code(country_name)
+    if country_name not in COUNTRY_NAME_TO_COUNTRY_ALPHA2:
+        return convert_country_alpha3_to_country_alpha2(country_name)
 
-    return COUNTRY_NAME_TO_COUNTRY_2_CODE[country_name]
+    return COUNTRY_NAME_TO_COUNTRY_ALPHA2[country_name]

@@ -1,7 +1,7 @@
 #   Makefile
 #
 # license   http://opensource.org/licenses/MIT The MIT License (MIT)
-# copyright Copyright (c) 2016, TUNE Inc. (http://www.tune.com)
+# copyright Copyright (c) 2017, TUNE Inc. (http://www.tune.com)
 #
 
 .PHONY: clean version build dist local-dev yapf pyflakes pylint
@@ -195,6 +195,12 @@ list-package: site-packages
 	@echo list-packages $(PACKAGE)
 	@echo "======================================================"
 	ls -al $(PYTHON3_SITE_PACKAGES)/$(PACKAGE_PREFIX)*
+
+run-example: local-dev
+	@echo "======================================================"
+	@echo run-example
+	@echo "======================================================"
+	$(PYTHON3) examples/example_country_convert.py
 
 list:
 	cat Makefile | grep "^[a-z]" | awk '{print $$1}' | sed "s/://g" | sort

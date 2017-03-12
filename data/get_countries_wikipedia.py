@@ -18,7 +18,7 @@ from pprintpp import pprint
 import pycountry
 
 
-def download_wiki_cntry_list():
+def download_wiki_country_list():
     """Downloads the Wikipedia country list in wikitext format.
     """
     url = (
@@ -30,7 +30,7 @@ def download_wiki_cntry_list():
     return wikitext.split("\n")
 
 
-def open_wiki_cntry_list():
+def open_wiki_country_list():
     """Open Wikipedia country list
     """
     with open(
@@ -75,11 +75,11 @@ def extract_continents(wikitext_lines):
 COUNTRY_REGEX = re.compile(r"\| '+\[?\[?([^\]]+)\]?\]?\'+")
 
 
-def find_cntry(line):
+def find_country(line):
     """
-    >>> find_cntry("| '''[[Germany]]'''")
+    >>> find_country("| '''[[Germany]]'''")
     'Germany'
-    >>> find_cntry("| [[Berlin]]")
+    >>> find_country("| [[Berlin]]")
     """
     match = COUNTRY_REGEX.match(line)
     if match:
@@ -96,7 +96,7 @@ def extract_countries(lines_by_continent):
     """Extract countries.
     """
     return {
-        continent: [find_cntry(line) for line in continent_lines if find_cntry(line)]
+        continent: [find_country(line) for line in continent_lines if find_country(line)]
             for continent, continent_lines in lines_by_continent.items()
     }
 
@@ -104,26 +104,28 @@ def extract_countries(lines_by_continent):
 def get_continents_to_countries_from_wiki():
     """Get Continents and Countries from Wikipedia.
     """
-    lines = open_wiki_cntry_list()
+    lines = open_wiki_country_list()
     lines_by_continent = extract_continents(lines)
     return extract_countries(lines_by_continent)
 
 
-def get_codes_to_continents_from_wiki():
+def get_alpha2_to_continents_from_wiki():
     """Get Country Codes to Continents from Wikipedia.
     """
     data = {}
     for continent, countries in get_continents_to_countries_from_wiki().items():
         for country_name in countries:
+            pprint(pycountry.countries.get(name=country_name).alpha_2)
+            
             try:
-                country_code = pycountry.countries.get(name=country_name).alpha2
+                country_code = pycountry.countries.get(name=country_name).alpha_2
                 data[country_code] = continent
                 continue
             except KeyError:
                 pass
 
             try:
-                country_code = get_country_name_to_2_code_from_wiki(country_name)
+                country_code = get_country_name_to_alpha2_from_wiki(country_name)
                 data[country_code] = continent
                 continue
             except KeyError:
@@ -132,21 +134,21 @@ def get_codes_to_continents_from_wiki():
     return data
 
 
-def get_codes_to_countries_from_wiki():
+def get_alpha2_codes_to_countries_from_wiki():
     """Get Country Codes to Countries from Wikipedia.
     """
     data = {}
     for continent, countries in get_continents_to_countries_from_wiki().items():
         for country_name in countries:
             try:
-                country_code = pycountry.countries.get(name=country_name).alpha2
+                country_code = pycountry.countries.get(name=country_name).alpha_2
                 data[country_code] = country_name
                 continue
             except KeyError:
                 pass
 
             try:
-                country_code = get_country_name_to_2_code_from_wiki(country_name)
+                country_code = get_country_name_to_alpha2_from_wiki(country_name)
                 data[country_code] = country_name
                 continue
             except KeyError:
@@ -154,22 +156,24 @@ def get_codes_to_countries_from_wiki():
 
     return data
 
-def get_countries_to_codes_from_wiki():
-    """Get Countries to Country Codes from Wikipedia.
+def get_countries_to_alpha2_codes_from_wiki():
+    """Get Countries to Country Alpha-2 from Wikipedia.
     """
     data = {}
     for continent, countries in get_continents_to_countries_from_wiki().items():
         for country_name in countries:
             try:
-                country_code = pycountry.countries.get(name=country_name).alpha2
-                data[country_name] = country_code
+                country_alpha_2 = pycountry.countries.get(name=country_name).alpha_2
+                data[country_name] = country_alpha_2
+                print(168)
                 continue
             except KeyError:
                 pass
 
             try:
-                country_code = get_country_name_to_2_code_from_wiki(country_name)
-                data[country_name] = country_code
+                country_alpha_2 = get_country_name_to_alpha2_from_wiki(country_name)
+                data[country_name] = country_alpha_2
+                print(176)
                 continue
             except KeyError:
                 pass
@@ -177,24 +181,24 @@ def get_countries_to_codes_from_wiki():
     return data
 
 
-def get_3_codes_to_2_codes_from_wiki():
+def get_alpha3_codes_to_alpha2_codes_from_wiki():
     """Get Countries to Country Codes from Wikipedia.
     """
     data = {}
     for continent, countries in get_continents_to_countries_from_wiki().items():
         for country_name in countries:
             try:
-                country_2_code = pycountry.countries.get(name=country_name).alpha2
-                country_3_code = pycountry.countries.get(name=country_name).alpha3
-                data[country_3_code] = country_2_code
+                country_alpha2 = pycountry.countries.get(name=country_name).alpha_2
+                country_alpha3 = pycountry.countries.get(name=country_name).alpha_3
+                data[country_alpha3] = country_alpha2
                 continue
             except KeyError:
                 pass
 
             try:
-                country_3_code = get_country_name_to_3_code_from_wiki(country_name)
-                country_2_code = get_country_name_to_2_code_from_wiki(country_name)
-                data[country_3_code] = country_2_code
+                country_alpha3 = get_country_name_to_alpha3_from_wiki(country_name)
+                country_alpha2 = get_country_name_to_alpha2_from_wiki(country_name)
+                data[country_alpha3] = country_alpha2
                 continue
             except KeyError:
                 pass
@@ -262,12 +266,12 @@ def get_country_codes_to_continents():
     return dic_iso2c_continent
 
 
-def get_country_name_to_2_code_from_wiki(country_name):
+def get_country_name_to_alpha2_from_wiki(country_name):
     """Get listing of Country names and code from Wikipedia.
     """
     dic = {}
 
-    with open("wikipedia-iso-country-codes.csv") as wikipedia_iso_csv:
+    with open("wikipedia-countries-iso-3166-1.csv") as wikipedia_iso_csv:
         wikipedia_iso_csv_content = csv.DictReader(wikipedia_iso_csv, delimiter=',')
         for line in wikipedia_iso_csv_content:
             dic[line['English short name lower case']] = line['Alpha-2 code']
@@ -278,12 +282,12 @@ def get_country_name_to_2_code_from_wiki(country_name):
     return dic[country_name]
 
 
-def get_country_name_to_3_code_from_wiki(country_name):
+def get_country_name_to_alpha3_from_wiki(country_name):
     """Get listing of Country names and code from Wikipedia.
     """
     dic = {}
 
-    with open("wikipedia-iso-country-codes.csv") as wikipedia_iso_csv:
+    with open("wikipedia-countries-iso-3166-1.csv") as wikipedia_iso_csv:
         wikipedia_iso_csv_content = csv.DictReader(wikipedia_iso_csv, delimiter=',')
         for line in wikipedia_iso_csv_content:
             dic[line['English short name lower case']] = line['Alpha-3 code']
@@ -296,8 +300,6 @@ def get_country_name_to_3_code_from_wiki(country_name):
 
 
 if __name__ == "__main__":
-    #Unit-selftest
     doctest.testmod()
-    #Print country list
-    #pprint(get_continents_to_countries_from_wiki())
-    pprint(get_codes_to_countries_from_wiki())
+    pprint(get_continents_to_countries_from_wiki())
+    #pprint(get_countries_to_alpha2_codes_from_wiki())

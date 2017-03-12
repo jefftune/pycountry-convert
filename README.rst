@@ -65,14 +65,14 @@ functions between ISO country names, country-codes, and continent names.
 Available functions:
 
 Convert `country code ISO 3166-1 alpha-2`_ to continent name:
-    ``convert_country_2_code_to_continent()``
+    ``convert_country_alpha2_to_continent()``
 Convert `country code ISO 3166-1 alpha-2`_ to country name:
-    ``convert_country_2_code_to_country_name()``
+    ``convert_country_alpha2_to_country_name()``
 Convert country name to `country code ISO 3166-1 alpha-2`_:
-    ``convert_country_name_to_country_2_code()``
+    ``convert_country_name_to_country_alpha2()``
 Convert `country code ISO 3166-1 alpha-3`_ to `country code ISO 3166-1
 alpha-2`_:
-    ``convert_country_3_code_to_country_2_code()``
+    ``convert_country_alpha3_to_country_alpha2()``
 
 .. _country code ISO 3166-1 alpha-2: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 .. _country code ISO 3166-1 alpha-3: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3

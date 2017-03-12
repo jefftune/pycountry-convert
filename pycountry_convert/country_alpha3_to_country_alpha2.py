@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #  @namespace pycountry-convert
@@ -6,9 +5,7 @@
 Country Alpha-3 code mapping to Country Alpha-2 code mapping.
 """
 
-=======
->>>>>>> 03cf647d161b2e37bcea90415548ec01edeb2117
-COUNTRY_3_CODE_TO_COUNTRY_2_CODE = {
+COUNTRY_ALPHA3_TO_COUNTRY_ALPHA2 = {
     'ABH': 'AB',
     'ABW': 'AW',
     'AFG': 'AF',
@@ -249,14 +246,14 @@ COUNTRY_3_CODE_TO_COUNTRY_2_CODE = {
     'YEM': 'YE',
     'ZAF': 'ZA',
     'ZMB': 'ZM',
-    'ZWE': 'ZW'
+    'ZWE': 'ZW',
 }
 
 
-def convert_country_3_code_to_country_2_code(country_3_code):
+def convert_country_alpha3_to_country_alpha2(country_3_code):
     """Convert country code to country name.
     """
-    if country_3_code not in COUNTRY_3_CODE_TO_COUNTRY_2_CODE:
+    if country_3_code not in COUNTRY_ALPHA3_TO_COUNTRY_ALPHA2:
         raise KeyError
 
-    return COUNTRY_3_CODE_TO_COUNTRY_2_CODE[country_3_code]
+    return COUNTRY_ALPHA3_TO_COUNTRY_ALPHA2[country_3_code]
