@@ -18,11 +18,11 @@ TUNE_MV_PKG_SUFFIX := py3-none-any.whl
 VERSION := $(shell $(PYTHON3) setup.py version)
 PYCOUNTRY_CONVERT_WHEEL_ARCHIVE := dist/$(PYCOUNTRY_CONVERT_PKG_PREFIX)-$(VERSION)-$(TUNE_MV_PKG_SUFFIX)
 
-MV_INTEGRATION_FILES := $(shell find pycountry-convert ! -name '__init__.py' -type f -name "*.py")
+PYCOUNTRY_CONVERT_FILES := $(shell find pycountry_convert ! -name '__init__.py' -type f -name "*.py")
 LINT_REQ_FILE := requirements-pylint.txt
 REQ_FILE      := requirements.txt
 SETUP_FILE    := setup.py
-ALL_FILES     := $(MV_INTEGRATION_FILES) $(REQ_FILE) $(SETUP_FILE)
+ALL_FILES     := $(PYCOUNTRY_CONVERT_FILES) $(REQ_FILE) $(SETUP_FILE)
 
 # Report the current pycountry-convert version.
 version:
@@ -50,22 +50,9 @@ clean:
 	find ./* -maxdepth 0 -name "*.pyc" -type f -delete
 	find $(PYCOUNTRY_CONVERT_PKG_PREFIX) -name "*.pyc" -type f -delete
 
-clean-again:
-	@echo "======================================================"
-	@echo clean-again
-	@echo "======================================================"
-	rm -fR __pycache__ venv "*.pyc" build/*    \
-		$(PYCOUNTRY_CONVERT_PKG_PREFIX)/__pycache__/         \
-		$(PYCOUNTRY_CONVERT_PKG_PREFIX)/helpers/__pycache__/ \
-		$(PYCOUNTRY_CONVERT_PKG_PREFIX).egg-info/*
-	find ./* -maxdepth 0 -name "*.pyc" -type f -delete
-	find $(PYCOUNTRY_CONVERT_PKG_PREFIX) -name "*.pyc" -type f -delete
-
 # Install the project requirements.
 requirements: $(REQ_FILE) pip
 	$(PIP3) install --upgrade -r $(REQ_FILE)
-
-
 
 # Make a project distributable.
 dist: clean
@@ -157,34 +144,23 @@ flake8:
 	flake8 --ignore=F401,E265,E129 tune
 	flake8 --ignore=E123,E126,E128,E265,E501 tests
 
-analysis: install
-	. venv/bin/activate; flake8 --ignore=E123,E126,E128,E265,E501 examples
-	. venv/bin/activate; flake8 --ignore=E123,E126,E128,E265,E501 tests
-	. venv/bin/activate; flake8 --ignore=F401,E265,E129 pycountry-convert
-	. venv/bin/activate; pylint --rcfile tools/pylintrc pycountry-convert | more
-
 lint: clean
-	pylint --rcfile .pylintrc pycountry-convert | more
+	pylint --rcfile .pylintrc pycountry_convert | more
 
 lint-requirements: $(LINT_REQ_FILE)
 	$(PIP3) install --upgrade -f $(LINT_REQ_FILE)
 
 pep8: lint-requirements
-	@echo pep8: $(MV_INTEGRATION_FILES)
-	$(PYTHON3) -m pep8 --config .pep8 $(MV_INTEGRATION_FILES)
+	@echo pep8: $(PYCOUNTRY_CONVERT_FILES)
+	$(PYTHON3) -m pep8 --config .pep8 $(PYCOUNTRY_CONVERT_FILES)
 
 pyflakes: lint-requirements
-	@echo pyflakes: $(MV_INTEGRATION_FILES)
-	$(PYTHON3) -m pyflakes $(MV_INTEGRATION_FILES)
+	@echo pyflakes: $(PYCOUNTRY_CONVERT_FILES)
+	$(PYTHON3) -m pyflakes $(PYCOUNTRY_CONVERT_FILES)
 
 pylint: lint-requirements
-	@echo pylint: $(MV_INTEGRATION_FILES)
-	$(PYTHON3) -m pylint --rcfile .pylintrc $(MV_INTEGRATION_FILES) --disable=C0330,F0401,E0611,E0602,R0903,C0103,E1121,R0913,R0902,R0914,R0912,W1202,R0915,C0302 | more -30
-
-fresh: | dist dist-update install clean-again
-	@echo "======================================================"
-	@echo fresh completed
-	@echo "======================================================"
+	@echo pylint: $(PYCOUNTRY_CONVERT_FILES)
+	$(PYTHON3) -m pylint --rcfile .pylintrc $(PYCOUNTRY_CONVERT_FILES) --disable=C0330,F0401,E0611,E0602,R0903,C0103,E1121,R0913,R0902,R0914,R0912,W1202,R0915,C0302 | more -30
 
 site-packages:
 	@echo $(PYTHON3_SITE_PACKAGES)

@@ -195,7 +195,7 @@ COUNTRY_2_CODE_TO_COUNTRY_NAME = {
     'RE': 'Reunion',
     'RO': 'Romania',
     'RS': 'Serbia',
-    'RU': 'Russia',
+    'RU': 'Russian Federation',
     'RW': 'Rwanda',
     'SA': 'Saudi Arabia',
     'SB': 'Solomon Islands',

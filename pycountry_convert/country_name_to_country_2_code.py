@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 #  @namespace pycountry-convert
 """
-Country name to Country code mapping.
+Country name to Country Alpha-2 code mapping.
 """
+
+from pycountry_convert.country_3_code_to_country_2_code import convert_country_3_code_to_country_2_code
 
 COUNTRY_NAME_TO_COUNTRY_2_CODE = {
     'Abkhazia': 'AB',
@@ -200,6 +202,7 @@ COUNTRY_NAME_TO_COUNTRY_2_CODE = {
     'Qatar': 'QA',
     'Romania': 'RO',
     'Russia': 'RU',
+    'Russian Federation': 'RU',
     'Rwanda': 'RW',
     'Réunion': 'RE',
     'Saba': 'BQ',
@@ -285,6 +288,6 @@ def convert_country_name_to_country_2_code(country_name):
     """Convert country name to country code.
     """
     if country_name not in COUNTRY_NAME_TO_COUNTRY_2_CODE:
-        raise KeyError
+        return convert_country_3_code_to_country_2_code(country_name)
 
     return COUNTRY_NAME_TO_COUNTRY_2_CODE[country_name]
