@@ -1,2 +1,3 @@
 pprintpp>=0.2.3
+pycountry>=16.11.27.1
 wheel>=0.29.0

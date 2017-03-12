@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#  @copyright 2016 TUNE, Inc. (http://www.tune.com)
+#  @copyright 2017 TUNE, Inc. (http://www.tune.com)
 #  @namespace pycountry-convert
 """
-Mapping of Country codes to Continent, from Wikipedia
+Mapping of Country Alpha-2 to Continent, from Wikipedia
 """
 
-COUNTRY_2_CODE_TO_CONTINENT = {
+COUNTRY_ALPHA2_TO_CONTINENT = {
     'AB': 'Asia',
     'AD': 'Europe',
     'AE': 'Asia',
@@ -255,10 +255,10 @@ COUNTRY_2_CODE_TO_CONTINENT = {
 }
 
 
-def convert_country_2_code_to_continent(country_2_code):
+def convert_country_alpha2_to_continent(country_2_code):
     """Convert country code to continent.
     """
-    if country_2_code not in COUNTRY_2_CODE_TO_CONTINENT:
+    if country_2_code not in COUNTRY_ALPHA2_TO_CONTINENT:
         raise KeyError
 
-    return COUNTRY_2_CODE_TO_CONTINENT[country_2_code]
+    return COUNTRY_ALPHA2_TO_CONTINENT[country_2_code]

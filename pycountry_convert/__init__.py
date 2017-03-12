@@ -1,36 +1,19 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#  @copyright 2017 TUNE, Inc. (http://www.tune.com)
 #  @namespace pycountry-convert
 
 __title__ = 'pycountry-convert'
-__version__ = '0.1.9'
-__build__ = 0x000109
+__version__ = '0.2.0'
+__build__ = 0x000200
 __version_info__ = tuple(__version__.split('.'))
 
 __author__ = 'jefft@tune.com'
-__license__ = 'Apache 2.0'
+__license__ = 'MIT License'
 
 __python_required_version__ = (3, 0)
 
-from .country_2_code_to_continent import (
-    convert_country_2_code_to_continent
-)
-
-from .country_2_code_to_country_name import (
-    convert_country_2_code_to_country_name
-)
-
-from .country_name_to_country_2_code import (
-    convert_country_name_to_country_2_code
-)
-
-from .country_3_code_to_country_2_code import (
-    convert_country_3_code_to_country_2_code
-)
-
-from .constants import (
-    __python_required_version__,
-    __MODULE_VERSION_INFO__,
-    __MODULE_SIG__,
-    __PYTHON_VERSION__
-)
+from .country_alpha2_to_continent import (convert_country_alpha2_to_continent)
+from .country_alpha2_to_country_name import (convert_country_alpha2_to_country_name)
+from .country_name_to_country_alpha2 import (convert_country_name_to_country_alpha2)
+from .country_alpha3_to_country_alpha2 import (convert_country_alpha3_to_country_alpha2)
