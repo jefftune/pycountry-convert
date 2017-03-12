@@ -12,13 +12,9 @@ Overview
     * - docs
       - |license|
     * - tests
-      - |travis| |coveralls|
+      - |travis|
     * - package
-      - |version| |supported-versions| |requires|
-
-.. |docs| image:: https://readthedocs.org/projects/pycountry-convert/badge/?style=flat
-    :alt: Documentation Status
-    :target: https://readthedocs.org/projects/pycountry-convert
+      - |version| |supported-versions|
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
     :alt: License Status
@@ -27,14 +23,6 @@ Overview
 .. |travis| image:: https://travis-ci.org/TuneLab/pycountry-convert.svg?branch=master
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/TuneLab/pycountry-convert
-
-.. |coveralls| image:: https://coveralls.io/repos/github/TuneLab/pycountry-convert/badge.svg?branch=master
-    :alt: Code Coverage Status
-    :target: https://coveralls.io/github/TuneLab/pycountry-convert?branch=master
-
-.. |requires| image:: https://requires.io/github/TuneLab/pycountry-convert/requirements.svg?branch=master
-     :target: https://requires.io/github/TuneLab/pycountry-convert/requirements/?branch=master
-     :alt: Requirements Status
 
 .. |version| image:: https://img.shields.io/pypi/v/pycountry-convert.svg?style=flat
     :alt: PyPI Package latest release
@@ -47,7 +35,7 @@ Overview
 .. end-badges
 
 pycountry-convert
-========================
+=================
 
 ``pycountry-convert`` is a Python module for TUNE Multiverse Libraries.
 
