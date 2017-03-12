@@ -1,7 +1,5 @@
 <h2>pycountry-convert</h2>
 <h3>Python conversion functions between ISO country codes, countries, and continents.</h3>
-<h4>Tue, 22 Nov 2016 18:44:08 +00:00</h4>
-<h4>Version: 0.1.4</h4>
 ===
 
 Using country data derived from wikipedia, this package provides conversion 
