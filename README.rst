@@ -1,8 +1,13 @@
 .. -*- mode: rst -*-
 
-========
-Overview
-========
+pycountry-convert
+-----------------------
+
+Python extension for package `pycountry <https://pypi.python.org/pypi/pycountry>`_.
+
+
+Badges
+------
 
 .. start-badges
 
@@ -12,9 +17,9 @@ Overview
     * - docs
       - |license|
     * - tests
-      - |travis|
+      - |travis| |coveralls|
     * - package
-      - |version| |supported-versions|
+      - |version| |supported-versions| |requires|
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
     :alt: License Status
@@ -24,6 +29,10 @@ Overview
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/TuneLab/pycountry-convert
 
+.. |coveralls| image:: https://coveralls.io/repos/TuneLab/pycountry-convert/badge.svg?branch=master&service=github
+    :alt: Code Coverage Status
+    :target: https://coveralls.io/r/TuneLab/pycountry-convert
+
 .. |version| image:: https://img.shields.io/pypi/v/pycountry-convert.svg?style=flat
     :alt: PyPI Package latest release
     :target: https://pypi.python.org/pypi/pycountry-convert
@@ -32,41 +41,33 @@ Overview
     :alt: Supported versions
     :target: https://pypi.python.org/pypi/pycountry-convert
 
+.. |requires| image:: https://requires.io/github/TuneLab/pycountry-convert/requirements.svg?branch=master
+    :alt: Requirements Status
+    :target: https://requires.io/github/TuneLab/pycountry-convert/requirements/?branch=master
+
 .. end-badges
 
-pycountry-convert
-=================
 
-``pycountry-convert`` is a Python module for TUNE Multiverse Libraries.
+Install
+-------
 
+.. code-block:: bash
 
-Installation
-============
+    pip install pycountry-convert
 
 
 Usage
-=====
+-----
 
 Using country data derived from wikipedia, this package provides conversion
 functions between ISO country names, country-codes, and continent names.
 
 Available functions:
 
-Convert `country code ISO 3166-1 alpha-2`_ to continent name:
-    ``convert_country_alpha2_to_continent()``
-Convert `country code ISO 3166-1 alpha-2`_ to country name:
-    ``convert_country_alpha2_to_country_name()``
-Convert country name to `country code ISO 3166-1 alpha-2`_:
-    ``convert_country_name_to_country_alpha2()``
-Convert `country code ISO 3166-1 alpha-3`_ to `country code ISO 3166-1
-alpha-2`_:
-    ``convert_country_alpha3_to_country_alpha2()``
+- ``convert_country_alpha2_to_continent()``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to continent name.
 
-.. _country code ISO 3166-1 alpha-2: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-.. _country code ISO 3166-1 alpha-3: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
+- ``convert_country_alpha2_to_country_name``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to country name.
 
-License: MIT
+- ``convert_country_name_to_country_alpha2()``: Convert country name to `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ .
 
-
-Reporting Issues
-================
+- ``convert_country_alpha3_to_country_alpha2()``: Convert `country code ISO 3166-1 alpha-3 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3>`_ to `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ .

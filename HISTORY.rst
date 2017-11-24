@@ -3,6 +3,11 @@
 Release History
 ===============
 
+0.3.0 (2017-11-24)
+------------------
+- README.rst
+- Tests
+
 0.1.9 (2017-03-12)
 ------------------
 - Makefile and README.rst

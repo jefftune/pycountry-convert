@@ -202,6 +202,12 @@ run-example: local-dev
 	@echo "======================================================"
 	$(PYTHON3) examples/example_country_convert.py
 
+test:
+	@echo "======================================================"
+	@echo py.test tests
+	@echo "======================================================"
+	py.test --verbose tests
+
 list:
 	cat Makefile | grep "^[a-z]" | awk '{print $$1}' | sed "s/://g" | sort
 
