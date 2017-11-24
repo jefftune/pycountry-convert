@@ -67,7 +67,7 @@ with codecs.open('HISTORY.rst', 'r', 'utf-8') as f:
 setup(
     name='pycountry-convert',
     version=version,
-    description='Countries conversion functions for Python',
+    description='Python extension for package pycountry',
     long_description=readme + '\n\n' + history,
     author='TUNE Inc., TuneLab',
     author_email='jefft@tune.com',
