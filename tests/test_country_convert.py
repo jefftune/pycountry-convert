@@ -3,9 +3,6 @@
 #  @copyright 2017 TUNE, Inc. (http://www.tune.com)
 #  @namespace logging_mv_integrations
 
-import sys
-from pprintpp import pprint
-
 from pycountry_convert import (
     convert_country_alpha2_to_country_name,
     convert_country_alpha2_to_continent,
@@ -42,7 +39,7 @@ class TestCountryConvert():
         assert(cn_name == 'South Korea')
 
         cn_name = convert_country_alpha2_to_country_name('RU')
-        pprint(cn_name)
+        assert(cn_name)
         assert(cn_name == 'Russian Federation')
 
     def test_country_name_to_country_alpha2(self):
