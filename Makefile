@@ -208,6 +208,18 @@ test:
 	@echo "======================================================"
 	py.test --verbose tests
 
+coverage:
+	@echo "======================================================"
+	@echo py.test coverage
+	@echo "======================================================"
+	py.test --verbose --cov-report html --cov=$(PACKAGE_PREFIX) tests
+
+coverage-percent:
+	@echo "======================================================"
+	@echo py.test coverage percent
+	@echo "======================================================"
+	py.test --verbose --cov=$(PACKAGE_PREFIX) tests
+
 list:
 	cat Makefile | grep "^[a-z]" | awk '{print $$1}' | sed "s/://g" | sort
 
