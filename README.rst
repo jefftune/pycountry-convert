@@ -3,7 +3,7 @@
 pycountry-convert
 -----------------
 
-Python extension for package `pycountry <https://pypi.python.org/pypi/pycountry>`_.
+Extension of Python package `pycountry <https://pypi.python.org/pypi/pycountry>`_ providing conversion functions.
 
 
 Badges
@@ -20,6 +20,10 @@ Badges
       - |travis| |coveralls|
     * - package
       - |version| |supported-versions| |requires|
+
+.. |docs| image:: https://readthedocs.org/projects/pytz-convert/badge/?style=flat
+    :alt: Documentation Status
+    :target: https://readthedocs.org/projects/pytz-convert
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
     :alt: License Status
@@ -56,13 +60,14 @@ Install
     pip install pycountry-convert
 
 
-Usage
------
+Architecture
+------------
 
 Using country data derived from wikipedia, this package provides conversion
 functions between ISO country names, country-codes, and continent names.
 
-Available functions:
+Functions
+---------
 
 - ``convert_country_alpha2_to_continent()``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to continent name.
 

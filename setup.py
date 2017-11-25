@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#  @namespace requests-mv-integrations
+#  @namespace pycountry-convert
 #
 #    Copyright (c) 2017 TUNE, Inc.
 #    All rights reserved.
@@ -53,6 +53,8 @@ CLASSIFIERS = [
     'Natural Language :: English',
     'License :: OSI Approved :: MIT License',
     'Programming Language :: Python',
+    'Programming Language :: Python :: 2.7',
+    'Programming Language :: Python :: 3',
     'Programming Language :: Python :: 3.3',
     'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
@@ -67,13 +69,13 @@ with codecs.open('HISTORY.rst', 'r', 'utf-8') as f:
 setup(
     name='pycountry-convert',
     version=version,
-    description='Python extension for package pycountry',
+    description='Extension of Python package pycountry providing conversion functions.',
     long_description=readme + '\n\n' + history,
     author='TUNE Inc., TuneLab',
     author_email='jefft@tune.com',
     url='https://github.com/TuneLab/pycountry-convert',
     download_url='https://github.com/TuneLab/pycountry-convert/archive/v{0}.tar.gz'.format(version),
-    keywords=["tune", "multiverse", "requests"],
+    keywords=["pycountry", "tune", "multiverse"],
     license='MIT License',
     zip_safe=False,
     install_requires=REQUIREMENTS,

@@ -221,5 +221,8 @@ coverage-percent:
 	py.test --verbose --cov=$(PACKAGE_PREFIX) tests
 
 list:
+	@echo "======================================================"
+	@echo Makefile target list
+	@echo "======================================================"
 	cat Makefile | grep "^[a-z]" | awk '{print $$1}' | sed "s/://g" | sort
 
