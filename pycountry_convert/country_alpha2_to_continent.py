@@ -258,7 +258,10 @@ COUNTRY_ALPHA2_TO_CONTINENT = {
 def convert_country_alpha2_to_continent(country_2_code):
     """Convert country code to continent.
     """
+    if country_2_code is None or len(country_2_code) != 2:
+        raise KeyError("Invalid Country Alpha-2 code: '{0}'".format(country_2_code))
+
     if country_2_code not in COUNTRY_ALPHA2_TO_CONTINENT:
-        raise KeyError
+        raise KeyError("Invalid Country Alpha-2 code: '{0}'".format(country_2_code))
 
     return COUNTRY_ALPHA2_TO_CONTINENT[country_2_code]

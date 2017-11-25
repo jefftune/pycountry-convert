@@ -253,7 +253,10 @@ COUNTRY_ALPHA3_TO_COUNTRY_ALPHA2 = {
 def convert_country_alpha3_to_country_alpha2(country_3_code):
     """Convert country code to country name.
     """
+    if country_3_code is None or len(country_3_code) != 3:
+        raise KeyError("Invalid Country Alpha-2 code: '{0}'".format(country_3_code))
+
     if country_3_code not in COUNTRY_ALPHA3_TO_COUNTRY_ALPHA2:
-        raise KeyError
+        raise KeyError("Invalid Country Alpha-3 code: '{0}'".format(country_3_code))
 
     return COUNTRY_ALPHA3_TO_COUNTRY_ALPHA2[country_3_code]
