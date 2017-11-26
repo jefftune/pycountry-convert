@@ -3,6 +3,8 @@
 #  @copyright 2017 TUNE, Inc. (http://www.tune.com)
 #  @namespace logging_mv_integrations
 
+import pytest
+
 from pycountry_convert import (
     convert_country_alpha2_to_country_name,
     convert_country_alpha2_to_continent,
@@ -63,3 +65,8 @@ class TestCountryConvert():
         cn_a2_code = convert_country_alpha3_to_country_alpha2('RUS')
         assert(cn_a2_code)
         assert(cn_a2_code == 'RU')
+
+    def test_invalid_country_alpha2(self):
+        with pytest.raises(KeyError) as e_key:
+            convert_country_alpha2_to_continent('AA')
+        assert "Invalid Country Alpha-2 code: 'AA'" in str(e_key)

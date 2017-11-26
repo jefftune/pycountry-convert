@@ -14,6 +14,22 @@ from pycountry_convert import (
 
 
 def main():
+    try:
+        cn_continent = convert_country_alpha2_to_continent('AA')
+        pprint(cn_continent)
+    except KeyError as kerr:
+        print("Key error: {0}".format(kerr))
+    except:
+        print("Unexpected error:", sys.exc_info()[0])
+
+    try:
+        cn_continent = convert_country_alpha2_to_continent(None)
+        pprint(cn_continent)
+    except KeyError as kerr:
+        print("Key error: {0}".format(kerr))
+    except:
+        print("Unexpected error:", sys.exc_info()[0])
+
     cn_continent = convert_country_alpha2_to_continent('US')
     pprint(cn_continent)
 
