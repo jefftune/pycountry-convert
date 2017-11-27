@@ -7,7 +7,7 @@ import pytest
 
 from pycountry_convert import (
     convert_country_alpha2_to_country_name,
-    convert_country_alpha2_to_continent,
+    convert_country_alpha2_to_continent_code,
     convert_country_name_to_country_alpha2,
     convert_country_alpha3_to_country_alpha2,
 )
@@ -15,21 +15,21 @@ from pycountry_convert import (
 class TestCountryConvert():
 
     def test_country_alpha2_to_continent(self):
-        cn_continent = convert_country_alpha2_to_continent('US')
+        cn_continent = convert_country_alpha2_to_continent_code('US')
         assert(cn_continent)
-        assert(cn_continent == 'North America')
+        assert(cn_continent == 'NA')
 
-        cn_continent = convert_country_alpha2_to_continent('AU')
+        cn_continent = convert_country_alpha2_to_continent_code('AU')
         assert(cn_continent)
-        assert(cn_continent == 'Oceania')
+        assert(cn_continent == 'OC')
 
-        cn_continent = convert_country_alpha2_to_continent('NZ')
+        cn_continent = convert_country_alpha2_to_continent_code('NZ')
         assert(cn_continent)
-        assert(cn_continent == 'Oceania')
+        assert(cn_continent == 'OC')
 
-        cn_continent = convert_country_alpha2_to_continent('JP')
+        cn_continent = convert_country_alpha2_to_continent_code('JP')
         assert(cn_continent)
-        assert(cn_continent == 'Asia')
+        assert(cn_continent == 'AS')
 
     def test_country_alpha2_to_country_name(self):
         cn_name = convert_country_alpha2_to_country_name('JP')
@@ -38,7 +38,7 @@ class TestCountryConvert():
 
         cn_name = convert_country_alpha2_to_country_name('KR')
         assert(cn_name)
-        assert(cn_name == 'South Korea')
+        assert(cn_name == 'Korea, Republic of')
 
         cn_name = convert_country_alpha2_to_country_name('RU')
         assert(cn_name)
@@ -68,5 +68,5 @@ class TestCountryConvert():
 
     def test_invalid_country_alpha2(self):
         with pytest.raises(KeyError) as e_key:
-            convert_country_alpha2_to_continent('AA')
+            convert_country_alpha2_to_continent_code('AA')
         assert "Invalid Country Alpha-2 code: 'AA'" in str(e_key)

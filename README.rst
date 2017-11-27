@@ -21,9 +21,9 @@ Badges
     * - package
       - |version| |supported-versions| |requires|
 
-.. |docs| image:: https://readthedocs.org/projects/pytz-convert/badge/?style=flat
+.. |docs| image:: https://readthedocs.org/projects/pycountry-convert/badge/?style=flat
     :alt: Documentation Status
-    :target: https://readthedocs.org/projects/pytz-convert
+    :target: https://readthedocs.org/projects/pycountry-convert
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
     :alt: License Status
@@ -69,7 +69,7 @@ functions between ISO country names, country-codes, and continent names.
 Functions
 ---------
 
-- ``convert_country_alpha2_to_continent()``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to continent name.
+- ``convert_country_alpha2_to_continent_code()``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to continent name.
 
 - ``convert_country_alpha2_to_country_name``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to country name.
 

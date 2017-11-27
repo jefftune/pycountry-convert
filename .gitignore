@@ -20,6 +20,8 @@ __pycache__/
 pycountry_convert/__pycache__/
 *.pyc
 
+_tmp/
+
 
 # pytest
 .cache/*
