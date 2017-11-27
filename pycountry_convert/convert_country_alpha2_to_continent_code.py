@@ -255,7 +255,7 @@ COUNTRY_ALPHA2_TO_CONTINENT_CODE = {
 }
 
 
-def convert_country_alpha2_to_continent_code(country_2_code):
+def country_alpha2_to_continent_code(country_2_code):
     """Convert country code to continent.
     """
     if country_2_code is None or len(country_2_code) != 2:

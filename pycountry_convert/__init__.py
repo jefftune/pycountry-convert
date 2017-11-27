@@ -14,42 +14,33 @@ __license__ = 'MIT License'
 __python_required_version__ = (3, 0)
 
 
-from .get_country_pycountry import (
-    get_countries,
-    get_country_name_to_country_alpha2,
-    get_country_name_to_country_alpha3
+from .country_mappings import (
+    map_countries,
+    map_country_name_to_country_alpha2,
+    map_country_name_to_country_alpha3,
+    map_country_alpha2_to_country_name,
+    map_country_alpha3_to_country_name,
+    map_country_alpha3_to_country_alpha2,
+    map_country_alpha2_to_country_alpha3
 )
-
-from .get_country_pycountry_mapping import (
-    get_country_alpha2_to_country_name,
-    get_country_alpha3_to_country_name,
-    get_country_alpha3_to_country_alpha2,
-    get_country_alpha2_to_country_alpha3
-)
-
-
 from .convert_countries import (
-    convert_country_alpha2_to_country_name,
-    convert_country_alpha3_to_country_alpha2,
-    convert_country_name_to_country_alpha2,
-    convert_country_name_to_country_alpha3,
+    country_alpha2_to_country_name,
+    country_alpha3_to_country_alpha2,
+    country_name_to_country_alpha2,
+    country_name_to_country_alpha3,
 )
-
 from .convert_country_alpha2_to_continent_code import (
-    convert_country_alpha2_to_continent_code
+    country_alpha2_to_continent_code
 )
-
 from .convert_continent_code_to_continent_name import (
     convert_continent_code_to_continent_name
 )
-
 from .country_name_format import (
     COUNTRY_NAME_FORMAT_DEFAULT,
     COUNTRY_NAME_FORMAT_LOWER,
     COUNTRY_NAME_FORMAT_UPPER,
     country_name_format
 )
-
 from .country_wikipedia import (
     WIKIPEDIA_COUNTRY_NAME_TO_COUNTRY_ALPHA2
 )
