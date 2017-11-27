@@ -200,7 +200,7 @@ run-example: local-dev
 	@echo "======================================================"
 	@echo run-example
 	@echo "======================================================"
-	$(PYTHON3) examples/example_country_convert.py
+	$(PYTHON3) examples/*.py
 
 test: local-dev
 	@echo "======================================================"
