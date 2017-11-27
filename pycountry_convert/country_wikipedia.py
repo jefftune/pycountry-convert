@@ -269,6 +269,11 @@ WIKIPEDIA_COUNTRY_NAME_TO_COUNTRY_ALPHA2 = {
     'Vanuatu': 'VU',
     'Venezuela': 'VE',
     'Vietnam': 'VN',
+    'Wallis and Futuna': 'WF',
+    'Yemen': 'YE',
+    'Zambia': 'ZM',
+    'Zimbabwe': 'ZW',
+    'Åland Islands': 'AX',
 }
 
 WIKIPEDIA_COUNTRY_NAME_TO_COUNTRY_ALPHA2_NOT_ISO = {
