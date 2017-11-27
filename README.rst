@@ -69,13 +69,29 @@ functions between ISO country names, country-codes, and continent names.
 Functions
 ---------
 
+- ``get_countries(cn_name_format="default", cn_extras={})``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to continent name.
+
 - ``convert_country_alpha2_to_continent_code()``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to continent name.
 
-- ``convert_country_alpha2_to_country_name``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to country name.
+- ``convert_country_alpha2_to_country_name(cn_name_format="default")``: Convert `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ to country name.
 
-- ``convert_country_name_to_country_alpha2()``: Convert country name to `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ .
+- ``convert_country_name_to_country_alpha2(cn_name, cn_name_format="default")``: Convert country name to `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ .
+
+- ``convert_country_alpha3_to_country_name(cn_name_format="default")``: Convert `country code ISO 3166-1 alpha-3 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3>`_ to country name.
+
+- ``convert_country_name_to_country_alpha3(cn_name, cn_name_format="default")``: Convert country name to `country code ISO 3166-1 alpha-3 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3>`_ .
 
 - ``convert_country_alpha3_to_country_alpha2()``: Convert `country code ISO 3166-1 alpha-3 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3>`_ to `country code ISO 3166-1 alpha-2 <https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2>`_ .
+
+Parameter: cn_name_format
+^^^^^^^^^^^^^^^^^^^^^^^^^
+- ``COUNTRY_NAME_FORMAT_DEFAULT "default"``: Country names as provide by ``pycountry``.
+- ``COUNTRY_NAME_FORMAT_LOWER "lower"``: All lowercase country names.
+- ``COUNTRY_NAME_FORMAT_UPPER "upper"``: All uppercase country names.
+
+Parameter: cn_extras
+^^^^^^^^^^^^^^^^^^^^
+Dictionary of `{ cn_name: cn_alpha2_code, ... }`
 
 
 Requirements

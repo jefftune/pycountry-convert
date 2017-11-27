@@ -2,16 +2,31 @@
 # -*- coding: utf-8 -*-
 #  @namespace pycountry-convert
 
+from .country_name_format import (
+    COUNTRY_NAME_FORMAT_DEFAULT,
+)
 
-def convert_country_alpha2_to_country_name(country_2_code):
+from .get_country_pycountry import (
+    get_country_name_to_country_alpha2,
+    get_country_name_to_country_alpha3,
+)
+
+from .get_country_pycountry_mapping import (
+    get_country_alpha2,
+)
+from .country_name_format import (
+    country_name_format
+)
+
+def convert_country_alpha2_to_country_name(country_2_code, cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Convert country ISO 3166-1 Alpha-2 code to country name.
     """
     if country_2_code is None or len(country_2_code) != 2:
         raise KeyError("Invalid Country Alpha-2 code: '{0}'".format(country_2_code))
 
-    from .get_countries import get_country_alpha2_to_country_name
+    from .get_country_pycountry_mapping import get_country_alpha2_to_country_name
 
-    dict_country_alpha2_to_country_name = get_country_alpha2_to_country_name()
+    dict_country_alpha2_to_country_name = get_country_alpha2_to_country_name(cn_name_format)
 
     if country_2_code not in dict_country_alpha2_to_country_name:
         raise KeyError("Invalid Country Alpha-2 code: '{0}'".format(country_2_code))
@@ -25,7 +40,7 @@ def convert_country_alpha3_to_country_alpha2(country_3_code):
     if country_3_code is None or len(country_3_code) != 3:
         raise KeyError("Invalid Country Alpha-3 code: '{0}'".format(country_3_code))
 
-    from .get_countries import get_country_alpha3_to_country_alpha2
+    from .get_country_pycountry_mapping import get_country_alpha3_to_country_alpha2
 
     dict_country_alpha3_to_country_alpha2 = get_country_alpha3_to_country_alpha2()
 
@@ -35,50 +50,50 @@ def convert_country_alpha3_to_country_alpha2(country_3_code):
     return dict_country_alpha3_to_country_alpha2[country_3_code]
 
 
-def convert_country_name_to_country_alpha2(country_name):
-    """Convert country name to country code.
+def convert_country_name_to_country_alpha2(cn_name, cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT):
+    """Convert country name to country code ISO 3166-1 Alpha-2.
     """
-    if country_name is None:
-        raise KeyError("Invalid Country Name: '{0}'".format(country_name))
+    if cn_name is None:
+        raise KeyError("Invalid Country Name: '{0}'".format(cn_name))
 
-    from .get_countries import get_country_name_to_country_alpha2, get_country_alpha2
-    dict_country_name_to_country_alpha2 = get_country_name_to_country_alpha2()
+    cn_name = country_name_format(cn_name, cn_name_format)
+    dict_country_name_to_country_alpha2 = get_country_name_to_country_alpha2(cn_name_format)
 
-    if len(country_name) == 3:
-        return convert_country_alpha3_to_country_alpha2(country_name)
+    if len(cn_name) == 3:
+        return convert_country_alpha3_to_country_alpha2(cn_name)
 
-    if len(country_name) == 2:
+    if len(cn_name) == 2:
         list_country_alpha2 = get_country_alpha2()
-        if country_name not in list_country_alpha2:
-            raise KeyError("Invalid Country Alpha-2 code: '{0}'".format(country_name))
+        if cn_name not in list_country_alpha2:
+            raise KeyError("Invalid Country Alpha-2 code: '{0}'".format(cn_name))
 
-        return country_name
+        return cn_name
 
-    if country_name not in dict_country_name_to_country_alpha2:
-        raise KeyError("Invalid Country Name: '{0}'".format(country_name))
+    if cn_name not in dict_country_name_to_country_alpha2:
+        raise KeyError("Invalid Country Name: '{0}'".format(cn_name))
 
-    return dict_country_name_to_country_alpha2[country_name]
+    return dict_country_name_to_country_alpha2[cn_name]
 
 
-def convert_country_name_to_country_alpha3(country_name):
+def convert_country_name_to_country_alpha3(cn_name, cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Convert country name to country code.
     """
-    if country_name is None:
-        raise KeyError("Invalid Country Name: '{0}'".format(country_name))
+    if cn_name is None:
+        raise KeyError("Invalid Country Name: '{0}'".format(cn_name))
 
-    from .get_countries import get_country_name_to_country_alpha3
-    dict_country_name_to_country_alpha3 = get_country_name_to_country_alpha3()
+    cn_name = country_name_format(cn_name, cn_name_format)
+    dict_country_name_to_country_alpha3 = get_country_name_to_country_alpha3(cn_name_format)
 
-    if len(country_name) == 3:
-        from .get_countries import get_country_alpha3
+    if len(cn_name) == 3:
+        from .get_country_pycountry_mapping import get_country_alpha3
 
         list_country_alpha3 = get_country_alpha3()
-        if country_name not in list_country_alpha3:
-            raise KeyError("Invalid Country Alpha-3 code: '{0}'".format(country_name))
+        if cn_name not in list_country_alpha3:
+            raise KeyError("Invalid Country Alpha-3 code: '{0}'".format(cn_name))
 
-        return country_name
+        return cn_name
 
-    if country_name not in dict_country_name_to_country_alpha3:
-        raise KeyError("Invalid Country Name: '{0}'".format(country_name))
+    if cn_name not in dict_country_name_to_country_alpha3:
+        raise KeyError("Invalid Country Name: '{0}'".format(cn_name))
 
-    return dict_country_name_to_country_alpha3[country_name]
+    return dict_country_name_to_country_alpha3[cn_name]

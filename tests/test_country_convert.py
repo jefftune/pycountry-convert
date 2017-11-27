@@ -6,6 +6,7 @@
 import pytest
 
 from pycountry_convert import (
+    get_countries,
     convert_country_alpha2_to_country_name,
     convert_country_alpha2_to_continent_code,
     convert_country_name_to_country_alpha2,
@@ -13,6 +14,10 @@ from pycountry_convert import (
 )
 
 class TestCountryConvert():
+    def test_get_countries(self):
+        cn_dict = get_countries()
+        assert(cn_dict)
+        assert(len(cn_dict) > 0)
 
     def test_country_alpha2_to_continent(self):
         cn_continent = convert_country_alpha2_to_continent_code('US')

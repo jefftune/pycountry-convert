@@ -3,7 +3,6 @@
 #  @namespace pycountry-convert
 
 import sys
-import pycountry
 from pprintpp import pprint
 
 from pycountry_convert import (
@@ -12,17 +11,14 @@ from pycountry_convert import (
     convert_country_name_to_country_alpha2,
     convert_country_alpha3_to_country_alpha2,
 
-    convert_country_alpha2_to_continent_code
+    convert_country_alpha2_to_continent_code,
+
+    COUNTRY_NAME_FORMAT_UPPER
 )
 
-
 def main():
-    for x in pycountry.countries:
-        pprint(x)
-
-    pprint(get_countries())
-
-    for key, value in sorted(get_countries().items()):
+    cn_name_format = COUNTRY_NAME_FORMAT_UPPER
+    for key, value in sorted(get_countries(cn_name_format).items()):
         pprint({key: value})
 
     try:
@@ -51,28 +47,28 @@ def main():
     cn_continent = convert_country_alpha2_to_continent_code('JP')
     pprint(cn_continent)
 
-    cn_name = convert_country_alpha2_to_country_name('JP')
+    cn_name = convert_country_alpha2_to_country_name('JP', cn_name_format)
     pprint(cn_name)
 
-    cn_a2_code = convert_country_name_to_country_alpha2('USA')
+    cn_a2_code = convert_country_name_to_country_alpha2('USA', cn_name_format)
     pprint(cn_a2_code)
-    cn_a2_code = convert_country_name_to_country_alpha2('United States')
+    cn_a2_code = convert_country_name_to_country_alpha2('United States', cn_name_format)
     pprint(cn_a2_code)
-    cn_a2_code = convert_country_name_to_country_alpha2('South Korea')
+    cn_a2_code = convert_country_name_to_country_alpha2('South Korea', cn_name_format)
     pprint(cn_a2_code)
-    cn_name = convert_country_alpha2_to_country_name(cn_a2_code)
+    cn_name = convert_country_alpha2_to_country_name(cn_a2_code, cn_name_format)
     pprint(cn_name)
 
-    cn_name = convert_country_alpha2_to_country_name('RU')
+    cn_name = convert_country_alpha2_to_country_name('RU', cn_name_format)
     pprint(cn_name)
-    cn_a2_code = convert_country_name_to_country_alpha2(cn_name)
+    cn_a2_code = convert_country_name_to_country_alpha2(cn_name, cn_name_format)
     pprint(cn_a2_code)
     cn_a2_code = convert_country_alpha3_to_country_alpha2('RUS')
     pprint(cn_a2_code)
 
-    cn_name = convert_country_alpha2_to_country_name('GB')
+    cn_name = convert_country_alpha2_to_country_name('GB', cn_name_format)
     pprint(cn_name)
-    cn_name = convert_country_alpha2_to_country_name('US')
+    cn_name = convert_country_alpha2_to_country_name('US', cn_name_format)
     pprint(cn_name)
 
 
