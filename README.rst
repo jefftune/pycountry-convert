@@ -15,7 +15,7 @@ Badges
     :stub-columns: 1
 
     * - docs
-      - |license|
+      - |license| |hits|
     * - tests
       - |travis| |coveralls|
     * - package
@@ -24,6 +24,10 @@ Badges
 .. |docs| image:: https://readthedocs.org/projects/pytz-convert/badge/?style=flat
     :alt: Documentation Status
     :target: https://readthedocs.org/projects/pytz-convert
+
+.. |hits| image:: http://hits.dwyl.io/TuneLab/pycountry-convert.svg
+    :alt: Hits
+    :target: http://hits.dwyl.io/TuneLab/pycountry-convert
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
     :alt: License Status
