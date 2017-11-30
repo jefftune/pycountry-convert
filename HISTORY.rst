@@ -3,10 +3,14 @@
 Release History
 ===============
 
+0.5.0 (2017-11-30)
+------------------
+- README.rst
+- Hits and Contributors
+
 0.3.0 (2017-11-27)
 ------------------
 - README.rst
-- Tests
 - Travis CI
 
 0.1.9 (2017-03-12)
