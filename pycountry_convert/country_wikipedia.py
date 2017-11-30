@@ -1,14 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #  @namespace pycountry-convert
-"""
-Country name to Country Alpha-2 code mapping.
-"""
 
-from pycountry_convert.country_alpha3_to_country_alpha2 import convert_country_alpha3_to_country_alpha2
 
-COUNTRY_NAME_TO_COUNTRY_ALPHA2 = {
-    'Abkhazia': 'AB',
+WIKIPEDIA_COUNTRY_NAME_TO_COUNTRY_ALPHA2 = {
     'Afghanistan': 'AF',
     'Albania': 'AL',
     'Algeria': 'DZ',
@@ -76,7 +71,7 @@ COUNTRY_NAME_TO_COUNTRY_ALPHA2 = {
     'Djibouti': 'DJ',
     'Dominica': 'DM',
     'Dominican Republic': 'DO',
-    'East Timor': 'TP',
+    'East Timor': 'TL',  # https://www.iso.org/obp/ui/#iso:code:3166:TP
     'Ecuador': 'EC',
     'Egypt': 'EG',
     'El Salvador': 'SV',
@@ -133,7 +128,6 @@ COUNTRY_NAME_TO_COUNTRY_ALPHA2 = {
     "Korea, Democratic People's Republic of": 'KP',
     'Kiribati': 'KI',
     'Korea, Republic Of': 'KR',
-    'Kosovo': 'XK',
     'Kuwait': 'KW',
     'Kyrgyzstan': 'KG',
     'Laos': 'LA',
@@ -235,7 +229,6 @@ COUNTRY_NAME_TO_COUNTRY_ALPHA2 = {
     'South Africa': 'ZA',
     'South Georgia and the South Sandwich Islands': 'GS',
     'South Korea': 'KR',
-    'South Ossetia': 'OS',
     'South Sudan': 'SS',
     'Spain': 'ES',
     'Sri Lanka': 'LK',
@@ -283,11 +276,8 @@ COUNTRY_NAME_TO_COUNTRY_ALPHA2 = {
     'Åland Islands': 'AX',
 }
 
-
-def convert_country_name_to_country_alpha2(country_name):
-    """Convert country name to country code.
-    """
-    if country_name not in COUNTRY_NAME_TO_COUNTRY_ALPHA2:
-        return convert_country_alpha3_to_country_alpha2(country_name)
-
-    return COUNTRY_NAME_TO_COUNTRY_ALPHA2[country_name]
+WIKIPEDIA_COUNTRY_NAME_TO_COUNTRY_ALPHA2_NOT_ISO = {
+    'Abkhazia': 'AB',
+    'Kosovo': 'XK',
+    'South Ossetia': 'OS',
+}
