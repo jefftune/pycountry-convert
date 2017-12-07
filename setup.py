@@ -30,7 +30,7 @@ PACKAGES = [
     'pycountry_convert'
 ]
 
-TEST_REQUIREMENTS = ['pytest>=2.8.0', 'pytest-cov']
+TEST_REQUIREMENTS = ['pytest>=3.3.1', 'pytest-cov']
 
 with open('pycountry_convert/__init__.py', 'r') as fd:
     version = re.search(r'^__version__\s*=\s*[\'"]([^\'"]*)[\'"]', fd.read(), re.MULTILINE).group(1)
@@ -51,12 +51,10 @@ CLASSIFIERS = [
     'Intended Audience :: Developers',
     'Operating System :: OS Independent',
     'Natural Language :: English',
-    'License :: OSI Approved :: MIT License',
+    'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
-    'Programming Language :: Python :: 3.3',
-    'Programming Language :: Python :: 3.4',
     'Programming Language :: Python :: 3.5',
     'Programming Language :: Python :: 3.6',
     'Programming Language :: Python :: Implementation :: PyPy'
@@ -77,7 +75,7 @@ setup(
     url='https://github.com/TuneLab/pycountry-convert',
     download_url='https://github.com/TuneLab/pycountry-convert/archive/v{0}.tar.gz'.format(version),
     keywords="pycountry conversion tune multiverse",
-    license='MIT License',
+    license='LGPL 3.0',
     zip_safe=False,
     install_requires=REQUIREMENTS,
     packages=PACKAGES,

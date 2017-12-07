@@ -1,12 +1,10 @@
 # Project files
-*.komodoproject
 .idea/
 .metadata/
 .project
 .settings/
 .pydevproject
 .python-version
-.idea
 .dartignore
 
 .sw*
@@ -16,12 +14,10 @@
 # Code build files
 *.egg-info/
 build/
-__pycache__/
-pycountry_convert/__pycache__/
+**/*/__pycache__/
 *.pyc
 
 _tmp/
-
 
 # pytest
 .cache/*
