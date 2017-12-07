@@ -4,12 +4,12 @@
 #  @namespace pycountry-convert
 
 __title__ = 'pycountry-convert'
-__version__ = '0.5.1'
-__build__ = 0x000501
+__version__ = '0.5.4'
+__build__ = 0x000504
 __version_info__ = tuple(__version__.split('.'))
 
 __author__ = 'jefft@tune.com'
-__license__ = 'MIT License'
+__license__ = 'LGPL 3.0'
 
 __python_required_version__ = (3, 0)
 

@@ -77,7 +77,7 @@ setup(
     url='https://github.com/TuneLab/pycountry-convert',
     download_url='https://github.com/TuneLab/pycountry-convert/archive/v{0}.tar.gz'.format(version),
     keywords="pycountry conversion tune multiverse",
-    license='MIT License',
+    license='LGPL 3.0',
     zip_safe=False,
     install_requires=REQUIREMENTS,
     packages=PACKAGES,
