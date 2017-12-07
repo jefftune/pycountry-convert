@@ -4,4 +4,4 @@ include LICENSE
 include AUTHORS.rst
 include HISTORY.rst
 include requirements.txt
-recursive-include pycountry-convert *.py
+recursive-include pycountry_convert *.py

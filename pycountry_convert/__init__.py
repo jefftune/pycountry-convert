@@ -4,8 +4,8 @@
 #  @namespace pycountry-convert
 
 __title__ = 'pycountry-convert'
-__version__ = '0.5.4'
-__build__ = 0x000504
+__version__ = '0.5.5'
+__build__ = 0x000505
 __version_info__ = tuple(__version__.split('.'))
 
 __author__ = 'jefft@tune.com'
