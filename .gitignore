@@ -19,7 +19,6 @@ build/
 
 _tmp/
 
-
 # pytest
 .cache/*
 /htmlcov/
