@@ -1,4 +1,6 @@
-pylint
-pep8
-pyflakes
-yapf
+pep8>=1.7.1
+pyflakes>=1.6.0
+pylint>=1.7.4
+sphinx-autobuild>=0.7.1
+Sphinx>=1.6.5
+yapf>=0.20.0
