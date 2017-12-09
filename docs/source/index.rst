@@ -25,12 +25,17 @@ Badges
 .. list-table::
     :stub-columns: 1
 
+    * - docs
+      - |docs| |license|
     * - info
-      - |docs| |license| |hits| |contributors|
+      - |hits| |contributors|
     * - tests
       - |travis| |coveralls|
     * - package
-      - |version| |supported-versions| |requires|
+      - |version| |supported-versions|
+    * - other
+      - |requires|
+
 
 .. |docs| image:: https://readthedocs.org/projects/pycountry-convert/badge/?style=flat
     :alt: Documentation Status
