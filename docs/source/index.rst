@@ -3,25 +3,16 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to pycountry-convert's documentation!
-=============================================
+pycountry-convert
+=================
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
-
-pycountry-convert
------------------
+Introduction
+------------
 
 Extension of Python package `pycountry <https://pypi.python.org/pypi/pycountry>`_ providing conversion functions.
 
@@ -35,7 +26,7 @@ Badges
     :stub-columns: 1
 
     * - info
-      - |license| |hits| |contributors|
+      - |docs| |license| |hits| |contributors|
     * - tests
       - |travis| |coveralls|
     * - package

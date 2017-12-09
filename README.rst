@@ -15,7 +15,7 @@ Badges
     :stub-columns: 1
 
     * - info
-      - |license| |hits| |contributors|
+      - |docs| |license| |hits| |contributors|
     * - tests
       - |travis| |coveralls|
     * - package
