@@ -28,7 +28,7 @@ Badges
 
 .. |docs| image:: https://readthedocs.org/projects/pycountry-convert/badge/?style=flat
     :alt: Documentation Status
-    :target: http://pycountry-convert.readthedocs.io/en/latest/
+    :target: http://pycountry-convert.readthedocs.io
 
 .. |hits| image:: http://hits.dwyl.io/TuneLab/pycountry-convert.svg
     :alt: Hits
