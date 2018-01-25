@@ -38,9 +38,9 @@ Badges
     :alt: Contributors
     :target: https://github.com/tuneinc/pycountry-convert/graphs/contributors
 
-.. |license| image:: https://img.shields.io/aur/license/yaourt.svg
+.. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
     :alt: License Status
-    :target: https://opensource.org/licenses/lgpl-license
+    :target: https://opensource.org/licenses/MIT
 
 .. |travis| image:: https://travis-ci.org/tuneinc/pycountry-convert.svg?branch=master
     :alt: Travis-CI Build Status
