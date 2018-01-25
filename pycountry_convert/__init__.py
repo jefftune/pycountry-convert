@@ -9,6 +9,7 @@ __version_info__ = tuple(__version__.split('.'))
 
 __author__ = 'jefft@tune.com'
 __license__ = 'MIT License'
+__copyright__ = 'Copyright 2018 TUNE, Inc.'
 
 __python_required_version__ = (3, 0)
 
