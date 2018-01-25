@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #  @namespace pycountry-convert
 #
-#    Copyright (c) 2017 TUNE, Inc.
+#    Copyright (c) 2018 TUNE, Inc.
 #    All rights reserved.
 #
 
@@ -70,11 +70,11 @@ setup(
     version=version,
     description='Extension of Python package pycountry providing conversion functions.',
     long_description=readme + '\n\n' + history,
-    author='TUNE Inc., TuneLab',
+    author='TUNE Inc.',
     author_email='jefft@tune.com',
-    url='https://github.com/TuneLab/pycountry-convert',
-    download_url='https://github.com/TuneLab/pycountry-convert/archive/v{0}.tar.gz'.format(version),
-    keywords="pycountry conversion tune multiverse",
+    url='https://github.com/tuneinc/pycountry-convert',
+    download_url='https://github.com/tuneinc/pycountry-convert/archive/v{0}.tar.gz'.format(version),
+    keywords="pycountry conversion tune",
     license='LGPL 3.0',
     zip_safe=False,
     install_requires=REQUIREMENTS,

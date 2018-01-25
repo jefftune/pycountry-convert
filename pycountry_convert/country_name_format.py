@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
+#  @copyright 2018 TUNE, Inc. (http://www.tune.com)
 #  @namespace pycountry-convert
 
 COUNTRY_NAME_FORMAT_DEFAULT = 'default'

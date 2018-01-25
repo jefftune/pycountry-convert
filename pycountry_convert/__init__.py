@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-#  @copyright 2017 TUNE, Inc. (http://www.tune.com)
+#  @copyright 2018 TUNE, Inc. (http://www.tune.com)
 #  @namespace pycountry-convert
 
 __title__ = 'pycountry-convert'
-__version__ = '0.6.5'
+__version__ = '0.6.6'
 __version_info__ = tuple(__version__.split('.'))
 
 __author__ = 'jefft@tune.com'
