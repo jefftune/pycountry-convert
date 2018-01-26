@@ -1,7 +1,7 @@
 #   Makefile
 #
 # license   http://opensource.org/licenses/MIT The MIT License (MIT)
-# copyright Copyright (c) 2017, TUNE Inc. (http://www.tune.com)
+# copyright Copyright (c) 2018, TUNE Inc. (http://www.tune.com)
 #
 
 .PHONY: clean version build dist local-dev yapf pyflakes pylint

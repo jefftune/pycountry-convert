@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 #  @namespace pycountry-convert
 #
-#    Copyright (c) 2017 TUNE, Inc.
+#    Copyright (c) 2018 TUNE, Inc.
 #    All rights reserved.
 #
 
@@ -51,7 +51,7 @@ CLASSIFIERS = [
     'Intended Audience :: Developers',
     'Operating System :: OS Independent',
     'Natural Language :: English',
-    'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
+    'License :: OSI Approved :: MIT License',
     'Programming Language :: Python',
     'Programming Language :: Python :: 2.7',
     'Programming Language :: Python :: 3',
@@ -70,12 +70,12 @@ setup(
     version=version,
     description='Extension of Python package pycountry providing conversion functions.',
     long_description=readme + '\n\n' + history,
-    author='TUNE Inc., TuneLab',
+    author='TUNE Inc.',
     author_email='jefft@tune.com',
-    url='https://github.com/TuneLab/pycountry-convert',
-    download_url='https://github.com/TuneLab/pycountry-convert/archive/v{0}.tar.gz'.format(version),
-    keywords="pycountry conversion tune multiverse",
-    license='LGPL 3.0',
+    url='https://github.com/tuneinc/pycountry-convert',
+    download_url='https://github.com/tuneinc/pycountry-convert/archive/v{0}.tar.gz'.format(version),
+    keywords="pycountry conversion tune",
+    license='MIT License',
     zip_safe=False,
     install_requires=REQUIREMENTS,
     packages=PACKAGES,
