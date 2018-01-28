@@ -141,9 +141,7 @@ dist: clean
 	@echo "======================================================"
 	$(PIP3) install --upgrade -r requirements.txt
 	hub release create -m "$(PACKAGE_PREFIX)-$(VERSION)-$(PACKAGE_SUFFIX)" v$(VERSION)
-	$(PYTHON3) $(SETUP_FILE) bdist_wheel upload
-	$(PYTHON3) $(SETUP_FILE) bdist_egg upload
-	$(PYTHON3) $(SETUP_FILE) sdist --format=gztar upload
+	$(PYTHON3) $(SETUP_FILE) sdist bdist_wheel upload
 	ls -al ./dist/$(PACKAGE_PREFIX_WILDCARD)
 
 tools-requirements: $(REQ_TOOLS_FILE)
