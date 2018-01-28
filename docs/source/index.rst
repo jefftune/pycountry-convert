@@ -41,25 +41,25 @@ Badges
     :alt: Documentation Status
     :target: http://pycountry-convert.readthedocs.io/en/latest/
 
-.. |hits| image:: http://hits.dwyl.io/TuneLab/pycountry-convert.svg
+.. |hits| image:: http://hits.dwyl.io/tuneinc/pycountry-convert.svg
     :alt: Hits
-    :target: http://hits.dwyl.io/TuneLab/pycountry-convert
+    :target: http://hits.dwyl.io/tuneinc/pycountry-convert
 
-.. |contributors| image:: https://img.shields.io/github/contributors/TuneLab/pycountry-convert.svg
+.. |contributors| image:: https://img.shields.io/github/contributors/tuneinc/pycountry-convert.svg
     :alt: Contributors
-    :target: https://github.com/TuneLab/pycountry-convert/graphs/contributors
+    :target: https://github.com/tuneinc/pycountry-convert/graphs/contributors
 
 .. |license| image:: https://img.shields.io/badge/License-MIT-yellow.svg
     :alt: License Status
     :target: https://opensource.org/licenses/MIT
 
-.. |travis| image:: https://travis-ci.org/TuneLab/pycountry-convert.svg?branch=master
+.. |travis| image:: https://travis-ci.org/tuneinc/pycountry-convert.svg?branch=master
     :alt: Travis-CI Build Status
-    :target: https://travis-ci.org/TuneLab/pycountry-convert
+    :target: https://travis-ci.org/tuneinc/pycountry-convert
 
-.. |coveralls| image:: https://coveralls.io/repos/TuneLab/pycountry-convert/badge.svg?branch=master&service=github
+.. |coveralls| image:: https://coveralls.io/repos/tuneinc/pycountry-convert/badge.svg?branch=master&service=github
     :alt: Code Coverage Status
-    :target: https://coveralls.io/r/TuneLab/pycountry-convert
+    :target: https://coveralls.io/r/tuneinc/pycountry-convert
 
 .. |version| image:: https://img.shields.io/pypi/v/pycountry-convert.svg?style=flat
     :alt: PyPI Package latest release
@@ -69,9 +69,9 @@ Badges
     :alt: Supported versions
     :target: https://pypi.python.org/pypi/pycountry-convert
 
-.. |requires| image:: https://requires.io/github/TuneLab/pycountry-convert/requirements.svg?branch=master
+.. |requires| image:: https://requires.io/github/tuneinc/pycountry-convert/requirements.svg?branch=master
     :alt: Requirements Status
-    :target: https://requires.io/github/TuneLab/pycountry-convert/requirements/?branch=master
+    :target: https://requires.io/github/tuneinc/pycountry-convert/requirements/?branch=master
 
 .. end-badges
 
