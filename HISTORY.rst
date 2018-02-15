@@ -3,6 +3,10 @@
 Release History
 ===============
 
+0.6.7 (2018-02-15)
+------------------
+- pycountry: added common_name (vgavro)
+
 0.6.6 (2018-01-25)
 ------------------
 - migrate to github/tuneinc.
