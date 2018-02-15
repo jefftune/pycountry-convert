@@ -24,11 +24,14 @@ def map_countries(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT, cn_extra={}):
 
     for cn in countries:
         cn_name = country_name_format(cn.name, cn_name_format)
-
         dict_countries.update({cn_name: {'alpha_2': cn.alpha_2, 'alpha_3': cn.alpha_3, 'numeric': cn.numeric} })
 
         if hasattr(cn, 'official_name'):
             cn_name = country_name_format(cn.official_name, cn_name_format)
+            dict_countries.update({cn_name: {'alpha_2': cn.alpha_2, 'alpha_3': cn.alpha_3, 'numeric': cn.numeric}})
+
+        if hasattr(cn, 'common_name'):
+            cn_name = country_name_format(cn.common_name, cn_name_format)
             dict_countries.update({cn_name: {'alpha_2': cn.alpha_2, 'alpha_3': cn.alpha_3, 'numeric': cn.numeric}})
 
     # Wikipedia Country Names
@@ -71,12 +74,14 @@ def map_countries(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT, cn_extra={}):
     return dict_countries
 
 
+@functools.lru_cache()
 def map_country_name_to_country_alpha2(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Return a dict of Country Name to ISO 3166-1 Alpha 2."""
 
     return {key: value['alpha_2'] for key, value in sorted(map_countries(cn_name_format).items())}
 
 
+@functools.lru_cache()
 def map_country_name_to_country_alpha3(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Return a dict of Country Name to ISO 3166-1 Alpha 3."""
 
