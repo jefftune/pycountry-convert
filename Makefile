@@ -87,6 +87,26 @@ uninstall-package: clean
 		echo "python package $(PACKAGE) Not Found"; \
 	fi
 
+install-requirements-27: clean
+	@echo "======================================================"
+	@echo "install-requirements $(PYV2) $(PACKAGE)"
+	@echo "======================================================"
+	$(PIP2) install --upgrade pip
+	$(PIP2) install -r $(REQ_FILE)
+	$(PIP2) uninstall --yes --no-input -r $(REQ_FILE)
+	$(PIP2) install --upgrade -r $(REQ_FILE)
+	@echo "======================================================"
+
+install-requirements: clean
+	@echo "======================================================"
+	@echo "install-requirements $(PYV3) $(PACKAGE)"
+	@echo "======================================================"
+	$(PIP3) install --upgrade pip
+	$(PIP3) install -r $(REQ_FILE)
+	$(PIP3) uninstall --yes --no-input -r $(REQ_FILE)
+	$(PIP3) install --upgrade -r $(REQ_FILE)
+	@echo "======================================================"
+
 site-packages-27:
 	@echo "======================================================"
 	@echo site-packages-27
@@ -271,7 +291,13 @@ test: local-dev
 	@echo "======================================================"
 	$(PYTHON3) -m pytest --verbose tests
 
-coverage:
+coverage-27: install-requirements-27
+	@echo "======================================================"
+	@echo "coverage $(PYV2)"
+	@echo "======================================================"
+	$(PYTHON2) -m pytest --verbose --cov-report term-missing --cov=$(PACKAGE_PREFIX) tests
+
+coverage: install-requirements
 	@echo "======================================================"
 	@echo "coverage $(PYV3)"
 	@echo "======================================================"
