@@ -189,46 +189,52 @@ dist: clean
 	$(PYTHON3) $(SETUP_FILE) sdist bdist_wheel upload
 	ls -al ./dist/$(PACKAGE_PREFIX_WILDCARD)
 
-tools-requirements: $(REQ_TOOLS_FILE)
+tools-requirements-2: $(REQ_TOOLS_FILE)
 	@echo "======================================================"
 	@echo tools-requirements
 	@echo "======================================================"
+	$(PIP2) install --upgrade -r $(REQ_TOOLS_FILE)
+
+tools-requirements-3: $(REQ_TOOLS_FILE)
+	@echo "======================================================"
+	@echo tools-requirements-3
+	@echo "======================================================"
 	$(PIP3) install --upgrade -r $(REQ_TOOLS_FILE)
 
-pep8: tools-requirements
+pep8: tools-requirements-3
 	@echo "======================================================"
 	@echo pep8 $(PACKAGE)
 	@echo "======================================================"
 	$(PYTHON3) -m pep8 --config .pep8 $(PACKAGE_ALL_FILES)
 
-pyflakes-2: tools-requirements
+pyflakes-2: tools-requirements-2
 	@echo "======================================================"
 	@echo pyflakes-2 $(PACKAGE)
 	@echo "======================================================"
 	$(PIP2) install --upgrade pyflakes
 	$(PYTHON2) -m pyflakes $(PYFLAKES_ALL_FILES)
 
-pyflakes-3: tools-requirements
+pyflakes-3: tools-requirements-3
 	@echo "======================================================"
 	@echo pyflakes-3 $(PACKAGE)
 	@echo "======================================================"
 	$(PIP3) install --upgrade pyflakes
 	$(PYTHON3) -m pyflakes $(PYFLAKES_ALL_FILES)
 
-pylint: tools-requirements
+pylint: tools-requirements-3
 	@echo "======================================================"
 	@echo pylint $(PACKAGE)
 	@echo "======================================================"
 	$(PIP3) install --upgrade pylint
 	$(PYTHON3) -m pylint --rcfile .pylintrc $(PACKAGE_ALL_FILES) --disable=C0330,F0401,E0611,E0602,R0903,C0103,E1121,R0913,R0902,R0914,R0912,W1202,R0915,C0302 | more -30
 
-yapf: tools-requirements
+yapf: tools-requirements-3
 	@echo "======================================================"
 	@echo yapf $(PACKAGE)
 	@echo "======================================================"
 	$(PYTHON3) -m yapf --style .style.yapf --in-place $(PACKAGE_ALL_FILES)
 
-lint: tools-requirements
+lint: tools-requirements-3
 	@echo "======================================================"
 	@echo lint $(PACKAGE)
 	@echo "======================================================"
