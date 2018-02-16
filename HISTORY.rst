@@ -3,8 +3,9 @@
 Release History
 ===============
 
-0.7.0 (2018-02-15)
+0.7.1 (2018-02-15)
 ------------------
+- migrate to github/TuneLab.
 - Python 2.7 support
 - lru_cache()
 
