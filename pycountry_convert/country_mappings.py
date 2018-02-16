@@ -49,7 +49,7 @@ def map_countries(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT, cn_extra={}):
 
         try:
             cn_name = country_alpha2_to_country_name(cn_alpha2, cn_name_format)
-        except KeyError as err:
+        except KeyError:
             # pprint(f"Miss: {cn_name_wiki}: {cn_alpha2}")
             continue
 
@@ -68,7 +68,7 @@ def map_countries(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT, cn_extra={}):
 
         try:
             cn_name = country_alpha2_to_country_name(cn_alpha2, cn_name_format)
-        except KeyError as err:
+        except KeyError:
             raise
 
         if cn_name not in dict_countries:
