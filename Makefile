@@ -9,6 +9,9 @@
 PACKAGE := pycountry-convert
 PACKAGE_PREFIX := pycountry_convert
 
+PYTHON2 := $(shell which python)
+PIP2    := $(shell which pip)
+
 PYTHON3 := $(shell which python3)
 PIP3    := $(shell which pip3)
 
@@ -69,9 +72,9 @@ clean:
 	find ./dist/ -name $(PACKAGE_WILDCARD) -exec rm -vf {} \;
 	find ./dist/ -name $(PACKAGE_PREFIX_WILDCARD) -exec rm -vf {} \;
 
-uninstall-package: clean
+uninstall-package-3: clean
 	@echo "======================================================"
-	@echo uninstall-package $(PACKAGE)
+	@echo uninstall-package-3 $(PACKAGE)
 	@echo "======================================================"
 	$(PIP3) install --upgrade list
 	@if $(PIP3) list --format=legacy | grep -F $(PACKAGE) > /dev/null; then \
@@ -82,33 +85,75 @@ uninstall-package: clean
 		echo "python package $(PACKAGE) Not Found"; \
 	fi
 
-site-packages:
+uninstall-package-2: clean
 	@echo "======================================================"
-	@echo site-packages
+	@echo uninstall-package-2 $(PACKAGE)
+	@echo "======================================================"
+	$(PIP2) install --upgrade list
+	@if $(PIP2) list --format=legacy | grep -F $(PACKAGE) > /dev/null; then \
+		echo "python package $(PACKAGE) Found"; \
+		$(PIP2) uninstall --yes $(PACKAGE); \
+		echo "uninstall package $(PACKAGE)"; \
+	else \
+		echo "python package $(PACKAGE) Not Found"; \
+	fi
+
+site-packages-3:
+	@echo "======================================================"
+	@echo site-packages-3
 	@echo "======================================================"
 	$(eval PYTHON3_SITE_PACKAGES := $(shell python3 -c "import site; print(site.getsitepackages()[0])"))
 	@echo $(PYTHON3_SITE_PACKAGES)
 
-remove-package: uninstall-package site-packages
+site-packages-2:
 	@echo "======================================================"
-	@echo remove-package $(PACKAGE_PREFIX)
+	@echo site-packages-2
+	@echo "======================================================"
+	$(eval PYTHON2_SITE_PACKAGES := $(shell python -c "import site; print(site.getsitepackages()[0])"))
+	@echo $(PYTHON2_SITE_PACKAGES)
+
+remove-package-3: uninstall-package-3 site-packages-3
+	@echo "======================================================"
+	@echo remove-package-3 $(PACKAGE_PREFIX)
 	@echo "======================================================"
 	rm -fR $(PYTHON3_SITE_PACKAGES)/$(PACKAGE_PREFIX)*
 
-install: remove-package
+remove-package-2: uninstall-package-2 site-packages-2
 	@echo "======================================================"
-	@echo install $(PACKAGE)
+	@echo remove-package-2 $(PACKAGE_PREFIX)
+	@echo "======================================================"
+	rm -fR $(PYTHON2_SITE_PACKAGES)/$(PACKAGE_PREFIX)*
+
+
+install-3: remove-package-3
+	@echo "======================================================"
+	@echo install-3 $(PACKAGE)
 	@echo "======================================================"
 	$(PIP3) install --upgrade pip
 	$(PIP3) install --upgrade $(WHEEL_ARCHIVE)
 	$(PIP3) freeze | grep $(PACKAGE)
 
-freeze:
+install-2: remove-package-2
 	@echo "======================================================"
-	@echo freeze $(PACKAGE)
+	@echo install-2 $(PACKAGE)
+	@echo "======================================================"
+	$(PIP2) install --upgrade pip
+	$(PIP2) install --upgrade $(WHEEL_ARCHIVE)
+	$(PIP2) freeze | grep $(PACKAGE)
+
+freeze-3:
+	@echo "======================================================"
+	@echo freeze-3 $(PACKAGE)
 	@echo "======================================================"
 	$(PIP3) install --upgrade freeze
 	$(PIP3) freeze | grep $(PACKAGE)
+
+freeze-2:
+	@echo "======================================================"
+	@echo freeze-2 $(PACKAGE)
+	@echo "======================================================"
+	$(PIP2) install --upgrade freeze
+	$(PIP2) freeze | grep $(PACKAGE)
 
 fresh: dist dist-update install
 	@echo "======================================================"
@@ -119,21 +164,21 @@ fresh: dist dist-update install
 register:
 	$(PYTHON3) $(SETUP_FILE) register
 
-local-dev-editable: remove-package
+local-dev-3: remove-package-3
 	@echo "======================================================"
-	@echo local-dev-editable $(PACKAGE)
-	@echo "======================================================"
-	$(PIP3) install --upgrade freeze
-	$(PIP3) install --upgrade --editable .
-	$(PIP3) freeze | grep $(PACKAGE)
-
-local-dev: remove-package
-	@echo "======================================================"
-	@echo local-dev $(PACKAGE)
+	@echo local-dev-3 $(PACKAGE)
 	@echo "======================================================"
 	$(PIP3) install --upgrade freeze
 	$(PIP3) install --upgrade .
 	$(PIP3) freeze | grep $(PACKAGE)
+
+local-dev-2: remove-package-2
+	@echo "======================================================"
+	@echo local-dev-2 $(PACKAGE)
+	@echo "======================================================"
+	$(PIP2) install --upgrade freeze
+	$(PIP2) install --upgrade .
+	$(PIP2) freeze | grep $(PACKAGE)
 
 dist: clean
 	@echo "======================================================"
@@ -188,23 +233,42 @@ flake8:
 	@echo "======================================================"
 	flake8 --ignore=F401,E265,E129 $(PACKAGE_PREFIX)
 
-list-package: site-packages
+list-package-3: site-packages-3
 	@echo "======================================================"
-	@echo list-packages $(PACKAGE)
+	@echo list-packages-3 $(PACKAGE)
 	@echo "======================================================"
 	ls -al $(PYTHON3_SITE_PACKAGES)/$(PACKAGE_PREFIX)*
 
-run-example: local-dev
+
+list-package-2: site-packages-2
 	@echo "======================================================"
-	@echo run-example
+	@echo list-packages-2 $(PACKAGE)
+	@echo "======================================================"
+	ls -al $(PYTHON2_SITE_PACKAGES)/$(PACKAGE_PREFIX)*
+
+run-example-3: local-dev-3
+	@echo "======================================================"
+	@echo run-example-3
 	@echo "======================================================"
 	$(PYTHON3) examples/*.py
 
-test: local-dev
+run-example-2: local-dev-2
 	@echo "======================================================"
-	@echo py.test tests
+	@echo run-example-2
 	@echo "======================================================"
-	py.test --verbose tests
+	$(PYTHON3) examples/*.py
+
+test-3: local-dev-3
+	@echo "======================================================"
+	@echo test-3 tests
+	@echo "======================================================"
+	$(PYTHON3) -m pytest --verbose tests
+
+test-2: local-dev-2
+	@echo "======================================================"
+	@echo test-2 tests
+	@echo "======================================================"
+	$(PYTHON2) -m pytest --verbose tests
 
 coverage:
 	@echo "======================================================"
