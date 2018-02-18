@@ -4,14 +4,12 @@
 #  @namespace pycountry-convert
 
 __title__ = 'pycountry-convert'
-__version__ = '0.6.7'
+__version__ = '0.7.1'
 __version_info__ = tuple(__version__.split('.'))
 
 __author__ = 'jefft@tune.com'
 __license__ = 'MIT License'
 __copyright__ = 'Copyright 2018 TUNE, Inc.'
-
-__python_required_version__ = (3, 0)
 
 
 from .country_mappings import (

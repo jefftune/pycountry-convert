@@ -1,6 +1,7 @@
 pprintpp>=0.3.0
 pycountry>=16.11.27.1
-pytest>=3.2.5
+pytest>=3.4.0
 pytest-mock>=1.6.3
 pytest-cov>=2.5.1
+repoze.lru>=0.7
 wheel>=0.30.0

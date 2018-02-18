@@ -9,8 +9,9 @@ from pycountry_convert import (
     map_countries,
     country_alpha2_to_country_name,
     country_alpha2_to_continent_code,
-    country_name_to_country_alpha2,
     country_alpha3_to_country_alpha2,
+    country_name_to_country_alpha2,
+    country_name_to_country_alpha3,
 )
 
 class TestCountryConvert():
@@ -61,6 +62,27 @@ class TestCountryConvert():
         cn_a2_code = country_name_to_country_alpha2('South Korea')
         assert(cn_a2_code)
         assert(cn_a2_code == 'KR')
+
+        cn_a2_code = country_name_to_country_alpha2('Russian Federation')
+        assert(cn_a2_code)
+        assert(cn_a2_code == 'RU')
+
+    def test_country_name_to_country_alpha3(self):
+        cn_a3_code = country_name_to_country_alpha3('USA')
+        assert(cn_a3_code)
+        assert(cn_a3_code == 'USA')
+
+        cn_a3_code = country_name_to_country_alpha3('United States')
+        assert(cn_a3_code)
+        assert(cn_a3_code == 'USA')
+
+        cn_a3_code = country_name_to_country_alpha3('South Korea')
+        assert(cn_a3_code)
+        assert(cn_a3_code == 'KOR')
+
+        cn_a3_code = country_name_to_country_alpha3('Russian Federation')
+        assert(cn_a3_code)
+        assert(cn_a3_code == 'RUS')
 
     def test_country_alpha3_to_country_alpha2(self):
         cn_a2_code = country_alpha3_to_country_alpha2('USA')

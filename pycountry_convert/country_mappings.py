@@ -3,8 +3,7 @@
 #  @copyright 2018 TUNE, Inc. (http://www.tune.com)
 #  @namespace pycountry-convert
 
-
-import functools
+import sys
 from .country_name_format import (
     COUNTRY_NAME_FORMAT_DEFAULT,
     country_name_format
@@ -13,7 +12,13 @@ from .country_wikipedia import (
     WIKIPEDIA_COUNTRY_NAME_TO_COUNTRY_ALPHA2
 )
 
-@functools.lru_cache()
+if (sys.version_info[0] < 3) or (sys.version_info[0] == 3 and sys.version_info[2] < 2):
+    from repoze.lru import lru_cache
+else:
+    from functools import lru_cache
+
+
+@lru_cache(maxsize=128)
 def map_countries(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT, cn_extra={}):
     """Return a dict of countries with key as country name (standard and official) with
     ISO 3166-1 values Alpha 2, Alpha 3, and Numeric."""
@@ -44,7 +49,7 @@ def map_countries(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT, cn_extra={}):
 
         try:
             cn_name = country_alpha2_to_country_name(cn_alpha2, cn_name_format)
-        except KeyError as err:
+        except KeyError:
             # pprint(f"Miss: {cn_name_wiki}: {cn_alpha2}")
             continue
 
@@ -63,7 +68,7 @@ def map_countries(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT, cn_extra={}):
 
         try:
             cn_name = country_alpha2_to_country_name(cn_alpha2, cn_name_format)
-        except KeyError as err:
+        except KeyError:
             raise
 
         if cn_name not in dict_countries:
@@ -74,21 +79,21 @@ def map_countries(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT, cn_extra={}):
     return dict_countries
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def map_country_name_to_country_alpha2(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Return a dict of Country Name to ISO 3166-1 Alpha 2."""
 
-    return {key: value['alpha_2'] for key, value in sorted(map_countries(cn_name_format).items())}
+    return {key: value['alpha_2'] for key, value in map_countries(cn_name_format).items()}
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def map_country_name_to_country_alpha3(cn_name_format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Return a dict of Country Name to ISO 3166-1 Alpha 3."""
 
-    return {key: value['alpha_3'] for key, value in sorted(map_countries(cn_name_format).items())}
+    return {key: value['alpha_3'] for key, value in map_countries(cn_name_format).items()}
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def map_country_alpha2_to_country_name(format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Return a dict of ISO Alpha2 country codes to country names."""
 
@@ -96,7 +101,7 @@ def map_country_alpha2_to_country_name(format=COUNTRY_NAME_FORMAT_DEFAULT):
     return {x.alpha_2: country_name_format(x.name, format) for x in pycountry.countries}
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def get_country_alpha2_to_country_official_name(format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Return a dict of ISO Alpha2 country codes to country official names."""
 
@@ -104,7 +109,7 @@ def get_country_alpha2_to_country_official_name(format=COUNTRY_NAME_FORMAT_DEFAU
     return {x.alpha_2: country_name_format(x.official_name, format) for x in pycountry.countries}
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def map_country_alpha3_to_country_name(format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Return a dict of ISO Alpha3 country codes to country names."""
 
@@ -112,7 +117,7 @@ def map_country_alpha3_to_country_name(format=COUNTRY_NAME_FORMAT_DEFAULT):
     return {x.alpha_3: country_name_format(x.name, format) for x in pycountry.countries}
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def get_country_alpha3_to_country_official_name(format=COUNTRY_NAME_FORMAT_DEFAULT):
     """Return a dict of ISO Alpha3 country codes to country official names."""
 
@@ -120,7 +125,7 @@ def get_country_alpha3_to_country_official_name(format=COUNTRY_NAME_FORMAT_DEFAU
     return {x.alpha_3: country_name_format(x.official_name, format) for x in pycountry.countries}
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def map_country_alpha3_to_country_alpha2():
     """Return a dict of ISO Alpha3 country codes to country names."""
 
@@ -128,7 +133,7 @@ def map_country_alpha3_to_country_alpha2():
     return {x.alpha_3: x.alpha_2 for x in pycountry.countries}
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def map_country_alpha2_to_country_alpha3():
     """Return a dict of ISO 3166-1 Alpha 2 country codes to ISO 3166-1 Alpha 3."""
 
@@ -136,7 +141,7 @@ def map_country_alpha2_to_country_alpha3():
     return {x.alpha_2: x.alpha_3 for x in pycountry.countries}
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def list_country_alpha2():
     """Return a list of ISO 3166-1 Alpha 2 country codes."""
 
@@ -144,7 +149,7 @@ def list_country_alpha2():
     return [x.alpha_2 for x in pycountry.countries]
 
 
-@functools.lru_cache()
+@lru_cache(maxsize=128)
 def list_country_alpha3():
     """Return a list of ISO 3166-1 Alpha 3 country codes."""
 

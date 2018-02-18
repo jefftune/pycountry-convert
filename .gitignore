@@ -23,6 +23,7 @@ _tmp/
 .cache/*
 /htmlcov/
 /.coverage
+/.pytest_cache/
 
 # distribution
 .eggs/*

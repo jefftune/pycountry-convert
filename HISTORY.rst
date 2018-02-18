@@ -3,6 +3,12 @@
 Release History
 ===============
 
+0.7.1 (2018-02-15)
+------------------
+- migrate to github/TuneLab.
+- Python 2.7 support
+- lru_cache()
+
 0.6.7 (2018-02-15)
 ------------------
 - pycountry: added common_name (vgavro)
