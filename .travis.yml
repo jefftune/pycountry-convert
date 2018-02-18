@@ -8,11 +8,12 @@ install:
 - pip install pyflakes
 - pip install coveralls
 before_script:
-- if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then make pyflakes-2; fi
-- if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then make pyflakes-3; fi
+- if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then make pyflakes-27; fi
+- if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then make pyflakes; fi
 script:
-- if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then make test-2; fi
-- if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then make test-3; fi
-- make coverage
+- if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then make test-27; fi
+- if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then make coverage-27; fi
+- if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then make test; fi
+- if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then make coverage; fi
 after_success:
   coveralls
