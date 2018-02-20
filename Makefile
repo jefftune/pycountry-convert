@@ -267,13 +267,13 @@ list-package: site-packages
 	@echo "======================================================"
 	ls -al $(PYTHON3_SITE_PACKAGES)/$(PACKAGE_PREFIX)*
 
-run-example-27: local-dev-27
+run-examples-27: local-dev-27
 	@echo "======================================================"
 	@echo "run-example $(PYV2)"
 	@echo "======================================================"
-	$(PYTHON3) examples/*.py
+	$(PYTHON2) examples/*.py
 
-run-example: local-dev
+run-examples: local-dev
 	@echo "======================================================"
 	@echo "run-example $(PYV3)"
 	@echo "======================================================"
