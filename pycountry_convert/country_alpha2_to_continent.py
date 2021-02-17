@@ -238,6 +238,7 @@ COUNTRY_ALPHA2_TO_CONTINENT = {
     'US': 'North America',
     'UY': 'South America',
     'UZ': 'Asia',
+    'VA': 'Europe',
     'VC': 'North America',
     'VE': 'South America',
     'VG': 'North America',
