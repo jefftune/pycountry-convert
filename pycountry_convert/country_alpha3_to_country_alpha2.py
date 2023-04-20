@@ -138,6 +138,7 @@ COUNTRY_ALPHA3_TO_COUNTRY_ALPHA2 = {
     'LTU': 'LT',
     'LUX': 'LU',
     'LVA': 'LV',
+    'MAC': 'MO',
     'MAF': 'MF',
     'MAR': 'MA',
     'MCO': 'MC',
