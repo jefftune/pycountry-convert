@@ -222,6 +222,7 @@ COUNTRY_ALPHA3_TO_COUNTRY_ALPHA2 = {
     'TJK': 'TJ',
     'TKL': 'TK',
     'TKM': 'TM',
+    'TMP': 'TP',
     'TON': 'TO',
     'TTO': 'TT',
     'TUN': 'TN',
